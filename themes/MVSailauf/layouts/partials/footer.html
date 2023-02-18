@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+	<ul class="navbar-nav mx-auto">
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.main.ByWeight }}
+		{{ if ge .Weight 10 }}
+		<li class="nav-item ">
+			<a class='nav-link {{ if in $currentPage .URL }} active {{ end }}' href="{{ .URL | absURL }}">
+				{{ .Name }}
+			</a>
+		</li>
+		{{ end }}
+		{{ end }}
+
+		{{- if site.IsMultiLingual }}
+		<li class="nav-item ">
+			<a class="nav-link" onclick="set_lang()">
+				{{ if eq .Page.Lang "en" }}
+				German
+				{{ else }}
+				Englisch
+				{{ end }}
+			</a>
+		</li>
+		{{end}}
+	</ul>
+</nav>
+
+
+
+<script src="/js/bootstrap-523.bundle.min.js"></script>
+
+<script>
+	function set_lang() {
+		lang = document.documentElement.lang
+		if (lang == "en-us") {
+			if (!location.pathname.startsWith('/de')) {
+				location = "/de" + location.pathname
+			}
+		} else {
+			location = location.pathname.replace('/de/', '/')
+		}
+	}
+</script>

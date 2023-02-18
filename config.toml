@@ -1,0 +1,47 @@
+################################# Default configuration ###################
+baseURL = "https://mv-sailauf.de"
+title = "Musikverein 1923 Sailauf"
+theme = "MVSailauf"
+# disable language
+defaultContentLanguage = "de"
+
+################### German Navigation ########################
+[[Languages.de.menu.main]]
+name = "Aktuelles"
+url = "/aktuelles"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "Veranstaltungen & Termine"
+url = "/veranstaltungen"
+weight = 3
+
+[[Languages.de.menu.main]]
+name = "Instrumentalausbildung"
+url = "/instrumentalausbildung"
+weight = 4
+
+[[Languages.de.menu.main]]
+name = "Das Blättchen"
+url = "/blaettchen"
+weight = 5
+
+[[Languages.de.menu.main]]
+name = "Impressum"
+url = "/imprint"
+weight = 11 
+
+############################# Default Parameters ##########################
+[params]
+logo = "images/logo.svg"
+author = "Paul Gerhart"
+ustid = ""
+
+################################ German Language ########################
+[Languages.de]
+languageName = "De"
+languageCode = "de-de"
+contentDir = "content/german"
+weight = 2
+home = "Home"
+copyright = "Copyright &copy; 2022 Musikverein Sailauf"

@@ -1,0 +1,81 @@
+{{ define "content" }}
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.index.index }}
+<div class="container pt-3">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 pt-3 d-flex align-items-stretch">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title">Über Uns</h5>
+                    <p class="card-text">
+                        Mithilfe unserer Proben bereiten wir uns konsequent auf anstehende Veranstaltungen
+                        vor.
+                    </p>
+                    <p class="card-text">
+                        Bei unseren Auftritten möchten wir vor allem durch Musikalität überzeugen,
+                        denn nichts
+                        belohnt uns mehr als der Applaus des Publikums.
+                    </p>
+                    <p class="card-text">
+                        Da bei uns neben der Musik auch die
+                        Gemeinschaft großgeschrieben wird, lassen wir unsere Proben in aller Regel mit einem
+                        geselligen Beisammensein ausklingen.
+                    </p>
+                    <p class="card-text">
+                        Wir freuen uns jederzeit über Neuzuwachs. Schauen Sie
+                        einfach einmal vorbei! Vielleicht dürfen wir Sie schon bald in unserer Runde begrüßen.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 pt-3 d-flex align-items-stretch">
+            <div class="card" href="stammorchester.html">
+                <img class="card-img-top" src="{{ .instrumentalausbildung | relURL }}" alt="Instrumentalausbildung Abbildung">
+                <div class="card-body">
+                    <h5 class="card-title">Instrumentalausbildung</h5>
+                    <p class="card-text">
+                        Starten kann man bei uns im Rahmen der <a href="instrumentalausbildung.html"
+                            class="stretched-link text-dark">Instrumentalausbildung</a>. Bereits im Kindesalter
+                        können
+                        Blechblasinstrumente, sowie die dazugehörigen Grundlagen in Musiklehre und Notenbildung,
+                        erlernt werden. Mit viel Spaß und Freude gelingt so der Einstieg in den Verein.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center pb-3">
+        <div class="col-lg-6 pt-3 d-flex align-items-stretch">
+            <div class="card">
+                <img class="card-img-top" src="{{ .jugendorchester | relURL }}" alt="Jugendorchester Abbildung">
+                <div class="card-body">
+                    <h5 class="card-title">Das Jugendorchester</h5>
+                    <p class="card-text">
+                        Aufbauend darauf können Kinder und Jugendliche Teil unserers Schüler-/Jugendorchesters
+                        werden. Gemeinsam wird viel gelacht, musiziert und geprobt.Jeder, der neu in die
+                        Gemeinschaft kommt, wird herzlich empfangen und wird sich sicherlich sofort wohlfühlen.
+                        Geprobt wird jeden Freitag bei unserem Dirigenten Ingo Krenz von <b>18:45 Uhr bis 19:45 Uhr</b>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-6 pt-3 d-flex align-items-stretch">
+            <div class="card" href="stammorchester.html">
+                <img class="card-img-top" src="{{ .stammorchester | relURL }}" alt="Stammorchester Abbildung">
+                <div class="card-body">
+                    <h5 class="card-title">Das Stammorchester</h5>
+                    <p class="card-text">
+                        In unserem Erwachsenenorchester, dem Stammorchester, steht das Musizieren ebenfalls an
+                        erster Stelle. Wir möchten gemeinsam den Spaß an der Musik ausleben. Hier durchlaufen wir
+                        mit unserem Dirigenten Ingo Krenz verschiedene Stilrichtungen. Wir proben
+                        freitags von <b>20:00 Uhr bis 22:00 Uhr (Einspielen ab 19:45 Uhr)</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
+{{ end }}
