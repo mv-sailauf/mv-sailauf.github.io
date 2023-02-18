@@ -33,7 +33,7 @@ weight = 11
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.svg"
+logo = "images/logo.png"
 author = "Paul Gerhart"
 ustid = ""
 
