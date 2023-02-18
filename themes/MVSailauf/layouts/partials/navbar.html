@@ -19,16 +19,37 @@
             <ul class="navbar-nav ms-auto">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main.ByWeight }}
-
-                {{ if lt .Weight 10 }}
+                {{ if lt .Weight 11 }}
                 <li class="nav-item ">
-                    <a class='nav-link {{ if eq .URL $currentPage }} active {{ end }}' href="{{ .URL }}"
-                        data-bs-target='{{ replace .URL "/" "" }}'>
+                    <a class='nav-link {{ if eq .URL $currentPage }} active {{ end }}' href="{{ .URL }}">
                         {{ .Name }}
                     </a>
                 </li>
                 {{ end }}
                 {{ end }}
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Sonstige
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        {{ range .Site.Menus.main.ByWeight }}
+                        {{ if gt .Weight 11 }}
+                        <li>
+                            <a class="dropdown-item" href="{{ .URL }}">
+                                {{ .Name }}
+                            </a>
+                        </li>
+                        {{end }}
+                        {{ end }}
+                    </ul>
+                </li>
+                <a class="navbar-brand" href="https://www.instagram.com/mv1923sailauf">
+                    <img src="/images/insta.png" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                </a>
+
             </ul>
         </div>
     </div>

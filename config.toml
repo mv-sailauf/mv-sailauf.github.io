@@ -12,7 +12,7 @@ url = "/aktuelles"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "Veranstaltungen & Termine"
+name = "Veranstaltungen"
 url = "/veranstaltungen"
 weight = 3
 
@@ -25,6 +25,12 @@ weight = 4
 name = "Das Blättchen"
 url = "/blaettchen"
 weight = 5
+
+[[Languages.de.menu.main]]
+name = "Sponsoren"
+url = "/sponsoren"
+weight = 12
+
 
 [[Languages.de.menu.main]]
 name = "Impressum"

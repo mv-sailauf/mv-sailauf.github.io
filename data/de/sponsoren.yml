@@ -1,0 +1,44 @@
+sponsoren:
+  items: 
+  - name : Spenglerei Joachim Knopp
+    text : ""
+    img : images/sponsoren/SpenglereiKnopp.png
+  - name : Gerüstbau Knopp
+    text : ""
+    img : images/sponsoren/GeruestbauKnopp.png
+  - name : Abbruchunternehmen Johannes Landwehr GmbH
+    text : "ist Ihr Profi für sichere und saubere Abrissarbeiten. Mit einem Maschinenpark, der härtesten Bedingungen standhält, bewältigen wir Projekte jeder Größe. Zahllose Industrie-Unternehmen, darunter Kraftwerksbetreiber, Petrochemie-Betriebe oder Energieversorger, vertrauen auf unsere Kompetenz Aufbruch zum Abbruch.  \n  Johannes Landwehr GmbH  \n Samtholzstrasse 80  \n 33442 Herzeblock-Clarholz  \n Tel. 0 52 45/86 07-0  \n Fax 0 52 45/86 07-20"
+    img : images/sponsoren/Landwehr.jpg
+  - name : Autohaus Staab
+    text : "Kfz Meisterbetrieb Stefan Staab  \n Brauereistraße 13 63877 Sailauf  \n Telefon: 06093-7928  \n Fax: 06093-2604  \n e-mail: auto-staab-sailauf@t-online.de"
+    img : images/sponsoren/AutohausStaab.jpg
+  - name : Bad 36 +
+    text : " Badsanierung GmbH & Co.KG  \n Johannesbergerstraße 37 \n D-63776 Mömbris  \n  \n Tel.: 06093-995894  \n Fax: 06093-995895  \n bad36plus@t-online.de  \n www.bad36plus.de"
+    img : images/sponsoren/Bad36Plus.jpeg
+  - name : Bauunternehmen Behl & Jäger
+    text : "Als Bauunternehmen bieten wir Ihnen Qualität und Individualität mit regionalen Handwerkern für alle Arten von Maurer-, Beton-, Zimmerer- und Pflasterarbeiten für Ihren Wohnhausneubau, Industriebau, Umbau, Sanierung oder Außenanlage an.  Bei uns erhalten Sie individuelle Beratung und Angebotsausarbeitung, Lösungs-vorschläge und eine fachlich und termingerechte Ausführung.  Durch die Verwendung von hochwertigen, aufeinander abgestimmten Baustoffen und die Ausführung durch unser geschultes Personal garantieren wir Ihnen Bauen auf höchstem Standard.  "
+    img : images/sponsoren/BehlJaegerBau.jpg
+  - name : Brauhaus Wiesen
+    text : ""
+    img : images/sponsoren/Wiesener.png
+  - name : EHS-Ingenieure
+    text : "Tragwerksplanung · Objektplanung · Instandsetzungsplanung · Bauüberwachung  \n  \n Am Alten Rahthaus 5  \n 34253 Lohfelden  \n Tel.: +49 561 950 88-0  \n Fax: +49 561 950 88-99"
+    img : images/sponsoren/EHS.jpg
+  - name : Gartentechnik Müller
+    text : "Eichenberg  \n Tel: 06024 - 3285  \n Fax: 06024 – 638097"
+    img : images/sponsoren/
+  - name : Hotel Brennhaus Behl
+    text : " Schon seit 25 Jahren eine Verwöhnadresse für Feinschmecker  \n Gehobene Küche  \n Table Party Service  \n Schaubrennen in der Destille  \n   \n Unser Restaurant Behl bietet eine niveauvolle und abwechslungsreiche Küche, geführt von Gerhard und Florian Behl. Wir sind ausgezeichnet in etlichen Hotel-Restaurantführern wie z. B. im Feinschmecker, Michelin und Vartaführer u.s.w. Schmackhafte, regionale Gerichte und internationale Spezialitäten aus stets frisch und saisonal abgestimmten Produkten sind ein Genuss für alle Anlässe. Ob ein festlicher Anlass oder ein entspannter Tag zwischendurch, das Candle – Light – Dinner oder die Halbpension. Der Qualität können Sie sich sicher sein."
+    img : images/sponsoren/LandgasthofBehl.jpg
+  - name : Naturheilpraxis Matthias Eisert
+    text : "Die Naturheilpraxis Matthias Eisert besteht nun mehr seit 1987 im 23. Praxisjahr sehr erfolgreich im Zentrum von Aschaffenburg.  Seit 1998 befindet sich die moderne Naturheilpraxis in der Frohsinnstr. 19a , nur 2  Minuten vom Hauptbahnhof und den Bushaltestellen in zentraler Lage."
+    img : images/sponsoren/NaturheilPraxis.jpg
+  - name : Pelzhaus Drescher
+    text : ""
+    img : images/sponsoren/Drescher.png
+  - name : Sailaufer Mineralbrunnen
+    text : "Aschaffenburger Str. 12  \n 63877 Sailauf  \n Telefon: 06093-483  \n Fax: 06093-8070  \n E-Mail: info@sailaufer-mineralbrunnen.de  \n Url: www.sailaufer-mineralbrunnen.de"
+    img : images/sponsoren/SailauferMineral.png
+  - name : Weingut Holler
+    text : ""
+    img : images/sponsoren/WeingutHoller.jpg
