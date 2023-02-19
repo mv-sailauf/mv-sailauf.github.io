@@ -2,189 +2,201 @@
 {{ $data := index site.Data site.Language.Lang }}
 {{ with $data.data.vorstand }}
 
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-3 pt-3 align-items-stretch d-flex">
-<div class="card w-100">
-    {{ with $data.data.abbildungen }}
-    <img class="card-img-top" src="{{ .jugendorchester | relURL }}" alt="Das Jugendorchester">
-    {{ end }}
-    <div class="card-body">
-        <h5 class="card-title">1. Vorstand</h5>
-        <p class="card-text">
-        <table class="table">
-            <tr>
-                <td>
-                   {{ .ersterVorstand | markdownify}} 
-                </td>
-            </tr>
+<div class="container pt-3">
+    <div class="row justify-content-center">
+        <div class="col-lg-3 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{ with $data.data.abbildungen }}
+                <img class="card-img-top" src="{{ .jugendorchester | relURL }}" alt="Der erste Vorstand">
+                {{ end }}
+                <div class="card-body">
+                    <h5 class="card-title">1. Vorstand</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .ersterVorstand | markdownify}}
+                            </td>
+                        </tr>
 
-            <tr>
-                <td>
-                   {{ .ersterVorstandMobil | markdownify}} 
-                </td>
-            </tr>
-        </table>
-        </p>
-    </div>
-</div>
-</div>
-<div class="col-lg-3 pt-3 align-items-stretch d-flex">
-<div class="card w-100">
-    <img class="card-img-top" src="static/img/jugendorchester.jpg" alt="Das Jugendorchester">
-    <div class="card-body">
-        <h5 class="card-title">2. Vorstand</h5>
-        <p class="card-text">
-        <table class="table">
-            <tr>
-                <td>
-                    Franz Josef Imgrund </br>
-                    </br>
-                    63877 Sailauf
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    </br>
-                </td>
-            </tr>
-            <tr>
-                <td>+49 151 1532 3018 </td>
-            </tr>
-        </table>
-        </p>
-    </div>
-</div>
-</div>
+                        <tr>
+                            <td>
+                                {{ .ersterVorstandMobil | markdownify}}
+                            </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{ with $data.data.abbildungen }}
+                <img class="card-img-top" src="{{ .jugendorchester | relURL }}" alt="Der zweite Vorstand">
+                {{ end }}
+                <div class="card-body">
+                    <h5 class="card-title">2. Vorstand</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .zweiterVorstand | markdownify}}
+                            </td>
+                        </tr>
 
-<div class="col-lg-3 pt-3 align-items-stretch d-flex">
-<div class="card w-100">
-    <img class="card-img-top" src="static/img/jugendorchester.jpg" alt="Das Jugendorchester">
-    <div class="card-body">
-        <h5 class="card-title">Jugendleitung</h5>
-        <p class="card-text">
-        <table class="table">
-            <tr>
-                <td>
-                    Annette Mieke </br>
-                    +49 151 2227 8206
-                </td>
-            </tr>
-            <tr>
-            </tr>
-            <tr>
-                <td>
-                    Vanessa Hartmann </br>
-                    +49 176 9433 6069
-                </td>
-            </tr>
-        </table>
-        </p>
-    </div>
-</div>
-</div>
-<div class="col-lg-3 pt-3 align-items-stretch d-flex">
-<div class="card w-100">
-    <img class="card-img-top" src="static/img/jugendorchester.jpg" alt="Das Jugendorchester">
-    <div class="card-body">
-        <h5 class="card-title">Pressewart</h5>
-        <p class="card-text">
-        <table class="table">
-            <tr>
-                <td>
-                    Roger Schmitt</br>
-                </br>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    pressewart@musikverein-1923-sailauf.de
-                </td>
-            </tr>
-        </table>
-        </p>
-    </div>
-</div>
-</div>
-</div>
-<div class="row pb-3">
-<div class="col-lg-6 pt-3 align-items-stretch d-flex">
-<div class="card w-100">
-    <div class="card-body">
-        <h5 class="card-title">Mitglied werden</h5>
-        <p class="card-text">
-        <table class="table">
-            <tr>
-                <td>
-                    <h6>1. Schritt:</h6>
-                    Die unten angegebene PDF-Datei "Beitirttserklärung mit Datenschutzerklärung"
-                    anklicken und somit auf Ihren PC
-                    herunterladen.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h6>2. Schritt:</h6>
-                    Die PDF-Datei öffnen und ausdrucken.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h6>3. Schritt:</h6>
-                    Handschriftlich die Seiten mit korrekten Daten ausfüllen und unterschreiben.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h6>4. Schritt:</h6>
-                    Die Dokumente per Post an die folgende Adresse senden: </br>
-                    Joachim Knopp </br>
-                    Hauptstraße 19 </br>
-                    63877 Eichenberg
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button type="button" class="btn btn-primary"
-                        onclick="loadBeitrittserklaerung()">PDF
-                        herunterladen</button>
-                </td>
-            </tr>
-        </table>
-        </p>
-    </div>
-</div>
-</div>
-<div class="col-lg-6 pt-3">
-<div class="card w-100">
-    <div class="card-body">
-        <h5 class="card-title">Kontakt</h5>
-        <p class="card-text">
-        <table class="table">
-            <tr>
-                <td>
-                    Musikverein 1923 Sailauf </br>
-                    Am Festplatz 2 </br>
-                    63877 Sailauf
-                </td>
-            </tr>
-            <tr>
-                <td>+49 6093 9967719</td>
-            </tr>
-            <tr>
-                <td> info@musikverein-1923-sailauf.de </td>
-            </tr>
-            <tr>
-                <td> https://www.musikverein-1923-sailauf.de </td>
-            </tr>
-        </table>
-        </p>
-    </div>
-</div>
-</div>
+                        <tr>
+                            <td>
+                                {{ .zweiterVorstandMobil | markdownify}}
+                            </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
 
-</div>
+        <div class="col-lg-3 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{ with $data.data.abbildungen }}
+                <img class="card-img-top" src="{{ .jugendorchester | relURL }}" alt="Die Jugendleitung">
+                {{ end }}
+                <div class="card-body">
+                    <h5 class="card-title">Jugendleitung</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .ersteJugendleitung }} </br>
+                                {{ .ersteJugendleitungMobil }}
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ .zweiteJugendleitung }} </br>
+                                {{ .zweiteJugendleitungMobil }}
+                            </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{ with $data.data.abbildungen }}
+                <img class="card-img-top" src="{{ .jugendorchester | relURL }}" alt="Der Pressewart">
+                {{ end }}
+                <div class="card-body">
+                    <h5 class="card-title">Pressewart</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .pressewart}} </br>
+                                {{ .pressewartMobil}}
+                            </td>
+                        </tr>
+                        {{ if .pressewartEmail}}
+                        <tr>
+                            <td>
+                                {{ .pressewartEmail}}
+                            </td>
+                        </tr>
+                        {{ end }}
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pb-3">
+        <div class="col-lg-6 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mitglied werden</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <h6>1. Schritt:</h6>
+                                Die unten angegebene PDF-Datei "Beitirttserklärung mit Datenschutzerklärung"
+                                anklicken und somit auf Ihren PC
+                                herunterladen.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h6>2. Schritt:</h6>
+                                Die PDF-Datei öffnen und ausdrucken.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h6>3. Schritt:</h6>
+                                Handschriftlich die Seiten mit korrekten Daten ausfüllen und unterschreiben.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h6>4. Schritt:</h6>
+                                <p>
+                                    Die Dokumente per Post an die folgende Adresse senden: </br>
+                                    {{ .ersterVorstand }}
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-primary" onclick="loadBeitrittserklaerung()">PDF
+                                    herunterladen</button>
+                            </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+        {{ with $data.data.contact }}
+ 
+        <div class="col-lg-6 pt-3">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title">Kontakt</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                               {{ .title }}</br>
+                               {{ .address_1 }} </br>
+                               {{ .address_2 }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>{{ .phone }}</td>
+                        </tr>
+                        <tr>
+                            <td> {{ .email }} </td>
+                        </tr>
+                        <tr>
+                            <td> {{ .homepage }} </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </div>
 {{ end }}
+{{ end }}
+<script>
+    function loadBeitrittserklaerung() {
+        url = "/pdf/MV-Sailauf.pdf"
+        window.open(url, "_blank");
+    }
+</script>
 {{ end }}
