@@ -36,7 +36,7 @@
 
                     <ul class="dropdown-menu">
                         {{ range .Site.Menus.main.ByWeight }}
-                        {{ if gt .Weight 11 }}
+                        {{ if gt .Weight 10 }}
                         <li>
                             <a class="dropdown-item" href="{{ .URL }}">
                                 {{ .Name }}
