@@ -1,0 +1,47 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.data.vorstand }}
+<div class="card w-100">
+	<div class="card-body">
+		<h5 class="card-title">Mitglied werden</h5>
+		<p class="card-text">
+		<table class="table">
+			<tr>
+				<td>
+					<h6>1. Schritt:</h6>
+					Die unten angegebene PDF-Datei "Beitirttserklärung mit Datenschutzerklärung"
+					anklicken und somit auf Ihren PC
+					herunterladen.
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h6>2. Schritt:</h6>
+					Die PDF-Datei öffnen und ausdrucken.
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h6>3. Schritt:</h6>
+					Handschriftlich die Seiten mit korrekten Daten ausfüllen und unterschreiben.
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h6>4. Schritt:</h6>
+					<p>
+						Die Dokumente per Post an die folgende Adresse senden: </br>
+						{{ .ersterVorstand }}
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="button" class="btn btn-primary" onclick="loadBeitrittserklaerung()">PDF
+						herunterladen</button>
+				</td>
+			</tr>
+		</table>
+		</p>
+	</div>
+</div>
+{{ end }}
