@@ -1,0 +1,23 @@
+contact:
+  title : Musikverein 1923 Sailauf 
+  address_1 : "Am Festplatz 2"
+  address_2 : "63877 Sailauf"
+  phone : "+49 "
+  email : "info [at] mv-sailauf.de"
+  homepage : "https://mv-sailauf.de"
+
+index:
+  jugendorchester: images/jugendorchester.jpg
+  stammorchester: images/stammorchester.jpg
+  instrumentalausbildung: images/instrumentalausbildung.jpg
+
+
+vorstand:
+  ersteJugendleitung: "Anette Mieke"
+  ersteJugendleitungMobil: "0151-22278206"
+
+ausbilder:
+  schlagzeug : "Stefan Müller"
+  blechblasinstrumente : "Ingo Krenz"
+  querflöte : "Sabrina Weigelt"
+  klavier : "Jonele Vita"
