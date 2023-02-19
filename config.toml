@@ -22,14 +22,14 @@ url = "/instrumentalausbildung"
 weight = 4
 
 [[Languages.de.menu.main]]
-name = "Das Blättchen"
+name = "„Das Blättchen“"
 url = "/blaettchen"
 weight = 5
 
 [[Languages.de.menu.main]]
 name = "Kontakt"
 url = "/kontakt"
-weight = 12
+weight = 6
 
 [[Languages.de.menu.main]]
 name = "Sponsoren"
