@@ -6,15 +6,17 @@ contact:
   email : "info [at] mv-sailauf.de"
   homepage : "https://mv-sailauf.de"
 
-index:
+abbildungen:
   jugendorchester: images/jugendorchester.jpg
   stammorchester: images/stammorchester.jpg
   instrumentalausbildung: images/instrumentalausbildung.jpg
 
-
 vorstand:
+  ersterVorstand: "Joachim Knopp  \n Hauptstraße 19  \n 63877 Eichenberg"
+  ersterVorstandMobil: "+49 6024 636 9780  \n +49 170 805 3174"
   ersteJugendleitung: "Anette Mieke"
   ersteJugendleitungMobil: "0151-22278206"
+  dirigent : "Ingo Krenz"
 
 ausbilder:
   schlagzeug : "Stefan Müller"

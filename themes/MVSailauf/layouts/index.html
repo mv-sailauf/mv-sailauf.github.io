@@ -1,6 +1,6 @@
 {{ define "content" }}
 {{ $data := index site.Data site.Language.Lang }}
-{{ with $data.data.index }}
+{{ with $data.data.abbildungen }}
 <div class="container pt-3">
     <div class="row justify-content-center">
         <div class="col-lg-6 pt-3 d-flex align-items-stretch">
@@ -29,12 +29,12 @@
             </div>
         </div>
         <div class="col-lg-6 pt-3 d-flex align-items-stretch">
-            <div class="card" href="stammorchester.html">
+            <div class="card">
                 <img class="card-img-top" src="{{ .instrumentalausbildung | relURL }}" alt="Instrumentalausbildung Abbildung">
                 <div class="card-body">
                     <h5 class="card-title">Instrumentalausbildung</h5>
                     <p class="card-text">
-                        Starten kann man bei uns im Rahmen der <a href="instrumentalausbildung.html"
+                        Starten kann man bei uns im Rahmen der <a href="instrumentalausbildung"
                             class="stretched-link text-dark">Instrumentalausbildung</a>. Bereits im Kindesalter
                         können
                         Blechblasinstrumente, sowie die dazugehörigen Grundlagen in Musiklehre und Notenbildung,
@@ -54,22 +54,30 @@
                         Aufbauend darauf können Kinder und Jugendliche Teil unserers Schüler-/Jugendorchesters
                         werden. Gemeinsam wird viel gelacht, musiziert und geprobt.Jeder, der neu in die
                         Gemeinschaft kommt, wird herzlich empfangen und wird sich sicherlich sofort wohlfühlen.
-                        Geprobt wird jeden Freitag bei unserem Dirigenten Ingo Krenz von <b>18:45 Uhr bis 19:45 Uhr</b>.
+                        Geprobt wird <b>jeden Freitag</b> bei unserem Dirigenten 
+                        {{ with $data.data.vorstand }}
+                            {{ .dirigent }}
+                        {{ end }}
+                         von <b>18:45 Uhr bis 19:45 Uhr</b>.
                     </p>
                 </div>
 
             </div>
         </div>
         <div class="col-lg-6 pt-3 d-flex align-items-stretch">
-            <div class="card" href="stammorchester.html">
+            <div class="card">
                 <img class="card-img-top" src="{{ .stammorchester | relURL }}" alt="Stammorchester Abbildung">
                 <div class="card-body">
                     <h5 class="card-title">Das Stammorchester</h5>
                     <p class="card-text">
                         In unserem Erwachsenenorchester, dem Stammorchester, steht das Musizieren ebenfalls an
                         erster Stelle. Wir möchten gemeinsam den Spaß an der Musik ausleben. Hier durchlaufen wir
-                        mit unserem Dirigenten Ingo Krenz verschiedene Stilrichtungen. Wir proben
-                        freitags von <b>20:00 Uhr bis 22:00 Uhr (Einspielen ab 19:45 Uhr)</b>.
+                        mit unserem Dirigenten 
+                        {{ with $data.data.vorstand }}
+                        {{ .dirigent }}
+                        {{ end }} 
+                        verschiedene Stilrichtungen. Wir proben
+                        <b>freitags von 20:00 Uhr bis 22:00 Uhr (Einspielen ab 19:45 Uhr)</b>.
                     </p>
                 </div>
             </div>

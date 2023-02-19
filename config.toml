@@ -27,6 +27,11 @@ url = "/blaettchen"
 weight = 5
 
 [[Languages.de.menu.main]]
+name = "Kontakt"
+url = "/kontakt"
+weight = 12
+
+[[Languages.de.menu.main]]
 name = "Sponsoren"
 url = "/sponsoren"
 weight = 12
