@@ -42,10 +42,10 @@ name = "Impressum"
 url = "/imprint"
 weight = 11 
 
-[[Languages.de.menu.main]]
-name = "Mitglied werden"
-url = "/mitglied"
-weight = 13 
+# [[Languages.de.menu.main]]
+# name = "Mitglied werden"
+# url = "/mitglied"
+# weight = 13 
 
 ############################# Default Parameters ##########################
 [params]

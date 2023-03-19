@@ -22,7 +22,7 @@
 			<tr>
 				<td>
 					<h6>3. Schritt:</h6>
-					Handschriftlich die Seiten mit korrekten Daten ausfüllen und unterschreiben.
+					Die Seiten mit korrekten Daten ausfüllen und unterschreiben.
 				</td>
 			</tr>
 			<tr>
@@ -30,7 +30,11 @@
 					<h6>4. Schritt:</h6>
 					<p>
 						Die Dokumente per Post an die folgende Adresse senden: </br>
-						{{ .ersterVorstand }}
+						{{ .ersterVorstand }} </br>
+						oder per Email an:
+						{{ with $data.data.contact }}
+						{{ .email}}
+						{{ end }}
 					</p>
 				</td>
 			</tr>
