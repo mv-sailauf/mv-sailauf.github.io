@@ -1,4 +1,4 @@
 ---
-title: "Imprint"
+title: "Impressum"
 layout: imprint
 ---
