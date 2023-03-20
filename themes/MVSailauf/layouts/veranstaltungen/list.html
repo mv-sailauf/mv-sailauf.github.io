@@ -1,5 +1,5 @@
 {{ define "content" }}
-<div class="d-block d-lg-block d-md-none">
+<div class="d-none d-lg-block">
     {{- $odd := true}}
     <div class="container pb-3">
         <div class="row justify-content-center pt-3">
@@ -50,7 +50,6 @@
     </div>
 </div>
 <div class="d-block d-lg-none">
-
     <div class="container pb-3">
         <div class="row justify-content-center pt-3">
             {{ range .Pages.ByPublishDate.Reverse }}
