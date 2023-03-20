@@ -7,9 +7,9 @@ contact:
   homepage : "https://mv-sailauf.de"
 
 abbildungen:
-  jugendorchester: images/jugendorchester.jpg
-  stammorchester: images/stammorchester.jpg
-  instrumentalausbildung: images/instrumentalausbildung.jpg
+  jugendorchester: images/index/jugendorchester.jpg
+  stammorchester: images/index/stammorchester.jpg
+  instrumentalausbildung: images/index/instrumentalausbildung.avif
 
 vorstand:
   ersterVorstand: "Joachim Knopp  \n Hauptstraße 19  \n 63877 Eichenberg"

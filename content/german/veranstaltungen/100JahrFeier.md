@@ -2,7 +2,7 @@
 date: 2023-03-02T08:20:34+01:00
 title: "100 Jahre Musikverein Sailauf"
 draft: false
-image: "/images/veranstaltungen/100_Jahre.jpeg"
+image: "/images/veranstaltungen/MVS-Plakat-100-Jahre-ohneinhalt.jpg"
 ---
 
 Liebe Musikfreunde,
