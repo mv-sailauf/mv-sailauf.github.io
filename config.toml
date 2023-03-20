@@ -49,7 +49,7 @@ weight = 11
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo_new.png"
+logo = "images/logo_new.avif"
 author = "Paul Gerhart"
 title = "Musikverein 1923 Sailauf"
 ustid = ""
