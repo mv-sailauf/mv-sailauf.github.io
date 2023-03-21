@@ -17,5 +17,6 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title>{{ site.Params.title }} - {{ .Title }}</title>
+    
+    <title>{{ site.Params.title }} {{ if .Title }}  - {{ .Title }} {{end}}</title>
 </head>
