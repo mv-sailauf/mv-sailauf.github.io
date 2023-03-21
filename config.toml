@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://mv-sailauf.de"
+baseURL = "https://mv1923sailauf.de"
 title = "Musikverein 1923 Sailauf"
 theme = "MVSailauf"
 # disable language
