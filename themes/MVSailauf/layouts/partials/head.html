@@ -19,4 +19,7 @@
 
     
     <title>{{ site.Params.title }} {{ if .Title }}  - {{ .Title }} {{end}}</title>
+    {{ if .Title }}
+    <meta name="description" content="{{ .Title }}">
+    {{ end }}
 </head>
