@@ -10,12 +10,17 @@ abbildungen:
   jugendorchester: images/index/jugendorchester.jpg
   stammorchester: images/index/stammorchester.jpg
   instrumentalausbildung: images/index/instrumentalausbildung.avif
+  ersterVorstand: images/vorstand/user.avif
+  zweiterVorstand: images/vorstand/user.avif
+  jugendleitung: images/vorstand/user.avif
+  pressewart: images/vorstand/user.avif
 
 vorstand:
   ersterVorstand: "Joachim Knopp  \n Hauptstraße 19  \n 63877 Eichenberg"
   ersterVorstandMobil: "+49 170-805 3174"
   zweiterVorstand: "Franz Josef Imgrund  \n 63877 Sailauf"
   zweiterVorstandMobil: "+49 151-1532 3018"
+
 
   ersteJugendleitung: "Anette Mieke"
   ersteJugendleitungMobil: "+49 151-2227 8206"
