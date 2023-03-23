@@ -14,7 +14,7 @@
             {{ $ctr = 0 }}
             {{ range .Params.Resources.Images }}
             <div class="carousel-item {{if eq $ctr 0 }} active {{ $ctr = 1}}{{end}}">
-                <img src="{{.src}}" class="d-block w-100" alt="{{.title}}">
+                <img src="{{.src}}" class="rounded-top d-block w-100" alt="{{.title}}">
             </div>
             {{ end }}
         </div>
