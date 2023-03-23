@@ -2,7 +2,11 @@
 date: {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
 draft: false
-image: "/images/veranstaltungen/"
+layout: Veranstaltungen
+resources:
+    images:
+    - name: Image
+      src: "/images/veranstaltungen/"
 ---
 
 

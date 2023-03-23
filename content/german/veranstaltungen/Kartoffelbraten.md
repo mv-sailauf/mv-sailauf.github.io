@@ -2,7 +2,13 @@
 date: 2023-02-19T08:20:34+01:00
 title: "Kartoffelbraten"
 draft: false
-image: "/images/veranstaltungen/Kartoffelbraten.avif"
+resources:
+    images:
+    - name: Hähnchen 
+      src: "/images/veranstaltungen/Kartoffelbraten.avif"
+    - name: Feuer
+      src: "/images/veranstaltungen/Kartoffelfeuer.avif"
+layout: Veranstaltungen
 ---
 
 Mit unserem Kartoffelbraten laden wir jedes Jahr aufs Neue alle Bürger der nahegelegenen Dörfer und alle Fans des Musikvereins zu unserer Festlichkeit ein.  

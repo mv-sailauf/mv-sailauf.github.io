@@ -2,7 +2,10 @@
 date: 2023-02-19T08:19:34+01:00
 title: "Starkbierfest"
 draft: false
-image: "/images/veranstaltungen/Starkbierfest.avif"
+resources:
+    images:
+    - name: Probe
+      src: "/images/veranstaltungen/Starkbierfest.avif"
 ---
 Mit diesem Fest wird der Veranstaltungskalender mit einer Besonderheit gefüllt. 
 Bei unserem Starkbierfest können unsere Gäste in den Genuss von frisch gezapftem Starkbier kommen.
