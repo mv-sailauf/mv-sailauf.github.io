@@ -7,6 +7,7 @@ resources:
     images:
     - name: Plakat 
       src: "/images/veranstaltungen/MVS-Plakat-100-Jahre-ohneinhalt.avif"
+layout: Veranstaltungen
 ---
 
 Liebe Musikfreunde,

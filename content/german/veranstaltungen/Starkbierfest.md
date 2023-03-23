@@ -6,6 +6,7 @@ resources:
     images:
     - name: Probe
       src: "/images/veranstaltungen/Starkbierfest.avif"
+layout: Veranstaltungen
 ---
 Mit diesem Fest wird der Veranstaltungskalender mit einer Besonderheit gefüllt. 
 Bei unserem Starkbierfest können unsere Gäste in den Genuss von frisch gezapftem Starkbier kommen.
