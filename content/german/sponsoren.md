@@ -1,4 +1,4 @@
 ---
-title: "Sponsoren"
+title: "Unsere Sponsoren"
 layout: sponsoren
 ---
