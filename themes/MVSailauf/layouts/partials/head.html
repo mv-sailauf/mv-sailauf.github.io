@@ -18,7 +18,7 @@
     <meta name="theme-color" content="#ffffff">
 
     
-    <title>{{ site.Params.title }} {{ if .Title }}  - {{ .Title }} {{end}}</title>
+    <title>{{ if .Title }} {{ .Title }} {{ else }} {{ site.Params.title }} {{end}}</title>
     {{ if .Title }}
     <meta name="description" content="{{ .Title }}">
     {{ end }}
