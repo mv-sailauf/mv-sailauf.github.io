@@ -26,6 +26,7 @@
       {{ end }}
     </div>
     <div class="col-lg-4">
+      {{ $ctr = 0}}
       {{ range .items }}
       {{ if eq $ctr 1 }}
       <div class="row pt-3">
@@ -45,6 +46,7 @@
       {{ end }}
     </div>
     <div class="col-lg-4">
+      {{ $ctr = 0}}
       {{ range .items }}
       {{ if eq $ctr 2 }}
       <div class="row pt-3">
