@@ -1,6 +1,6 @@
 ---
 date: {{ .Date }}
-title: "{{ replace .Name "-" " " | title }}"
+title: "Blättchen {{ replace .Name "-" " " | title }}"
 draft: false
 probe: "14.03.23"
 ---

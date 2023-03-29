@@ -1,0 +1,25 @@
+{{ define "content" }}
+
+<div class="container pb-3">
+    <div class="row justify-content-center pt-3">
+        <div class="col-lg-6 pt-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ .Title }}</h5>
+                    <p class="card-text">
+                        {{ .Content }}
+                    </p>
+                </div>
+                <div class="card-footer">
+                    {{ with .PrevInSection }}
+                    <a href="{{.Permalink}}" class="btn btn-outline-primary">{{.Title}}</a>
+                    {{ end }}
+                    {{ with .NextInSection }}
+                    <a href="{{.Permalink}}" class="btn btn-outline-primary float-end" >{{.Title}}</a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
