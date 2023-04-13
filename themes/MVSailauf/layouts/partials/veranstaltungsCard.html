@@ -30,8 +30,10 @@
         !-->
     </div>
     {{ else }}
-    {{ range .Params.Resources.Images }}
+    {{ range first 1 .Params.Resources.Images }}
+    {{ if .src }}
     <img class="card-img-top" load="lazy" src="{{ .src | relURL}}" alt="{{.title}}">
+    {{ end }}
     {{ end }}
     {{ end }}
     <div class="card-body">
