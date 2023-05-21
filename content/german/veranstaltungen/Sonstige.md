@@ -8,6 +8,6 @@ resources:
     - name: Image
 ---
 
-Neben unseren großen Veranstaltungen finden auch noch Aktionen wie das Neujahranspielen in der Sailaufer Ortsmitte, Auftritt beim Rot-Kreuz-Weihnachtsmarkt, das Begleiten von kirchlichen Ereignisse, Ständchen und zahlreiche Festbesuche statt. 
+Neben unseren großen Veranstaltungen finden auch noch Aktionen wie das Neujahranspielen in der Sailaufer Ortsmitte, Auftritt beim Rot-Kreuz-Weihnachtsmarkt, das Begleiten von kirchlichen Ereignisse und zahlreiche, Ständchen statt.
 
 Hinzu kommen passend zum Jahresverlauf Konzerte, Serenaden oder OpenAir Auftritte.
