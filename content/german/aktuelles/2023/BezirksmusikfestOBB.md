@@ -2,6 +2,8 @@
 date: 2023-05-21T09:23:54+02:00
 title: "Bezirksmusikfest Oberbessenbach"
 draft: false
+image: "/images/aktuelles/2023_BezirksmusikfestBB.avif"
+image_title: "Bezirksmusikfest 120 Jahre Fidelio Oberbessenbach"
 ---
 
 Zum 120-jährigen Geburtstag der Fidelio Oberbessenbach am 13. Mai 2023 durften wir - ihm Rahmen des Bezirksmusikfest - mit einem Kurzauftritt gratulieren.  
