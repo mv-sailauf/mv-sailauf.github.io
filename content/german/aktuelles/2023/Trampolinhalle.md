@@ -2,8 +2,6 @@
 date: 2023-04-05T20:25:01+02:00
 title: "Jugendorchester meets Trampolinhalle"
 draft: false
-image: "/images/veranstaltungen/"
-veranstaltungs_datum: "13.05.2022"
 ---
 
 Am vergangenen Freitag, den 31.03., ging es für unser Jugendorchester in die Airbase-Trampolinhalle nach Hösbach. 

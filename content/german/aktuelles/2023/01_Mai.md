@@ -2,7 +2,6 @@
 date: 2023-05-02T19:12:39+02:00
 title: "Der Mai ist gekommen"
 draft: false
-image: "/images/veranstaltungen/"
 veranstaltungs_datum: "13.05.2022"
 ---
 

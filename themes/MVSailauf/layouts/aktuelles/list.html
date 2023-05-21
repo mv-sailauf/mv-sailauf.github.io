@@ -4,6 +4,9 @@
     <div class="row justify-content-center pt-3">
         <div class="col-lg-6">
             <div class="card">
+                {{ if fileExists (printf "static%s" .Params.Image) }}
+                <img class="card-img-top" load="lazy" src="{{ .Params.Image | relURL}}" alt="{{.Params.Image}}">
+                {{ end }}
                 <div class="card-body">
                 <h5 class="card-title">{{ .Title }}</h5>
                 <p class="card-text">

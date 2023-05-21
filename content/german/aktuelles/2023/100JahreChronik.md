@@ -2,7 +2,6 @@
 date: 2023-02-19T20:23:24+02:00
 title: "Chronik zur 100-Jahr Feier"
 draft: false
-image: "/images/veranstaltungen/"
 ---
 Bald ist es soweit! Der Musikverein Sailauf wird 100 Jahre alt.
 Der Musikverein möchte zur 100-Jahr-Feier seine Chronik ergänzen und aktualisieren.

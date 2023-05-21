@@ -1,8 +1,6 @@
 ---
 date: 2023-03-29T12:36:23+02:00
 title: "Wir sind Konzertmeister!"
-draft: false
-image: "/images/veranstaltungen/"
 ---
 
 
