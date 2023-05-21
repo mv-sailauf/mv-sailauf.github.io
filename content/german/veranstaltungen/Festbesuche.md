@@ -5,7 +5,9 @@ draft: false
 layout: Veranstaltungen
 resources:
     images:
-    - name: Image
+    - name: "Marco und Roger"
+      src: "/images/veranstaltungen/Marco_Roger.avif"
+    - name: "Vatertag 2023"
       src: "/images/aktuelles/2023_Vatertag.avif"
 ---
 
