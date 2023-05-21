@@ -5,7 +5,7 @@
         <div class="col-lg-6">
             <div class="card">
                 {{ if fileExists (printf "static%s" .Params.Image) }}
-                <img class="card-img-top" load="lazy" src="{{ .Params.Image | relURL}}" alt="{{.Params.Image}}">
+                <img class="card-img-top" load="lazy" src="{{ .Params.Image | relURL}}" alt="{{if .Params.Image_Title}} {{- .Params.Image_Title -}} {{else}} {{- .Params.Image -}} {{end}}">
                 {{ end }}
                 <div class="card-body">
                 <h5 class="card-title">{{ .Title }}</h5>
