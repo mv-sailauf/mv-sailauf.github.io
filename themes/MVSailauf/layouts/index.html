@@ -1,15 +1,14 @@
 {{ define "content" }}
 {{ $data := index site.Data site.Language.Lang }}
 {{ with $data.data.abbildungen }}
-<div class="container pt-3">
+{{ partial "masthead.html" .}}
+<!-- Index Page -->
+<div class="container" id="about">
     <div class="row justify-content-center">
         <div class="col-lg-6 pt-3 d-flex align-items-stretch">
             <div class="card w-100">
                 <div class="card-body">
-                    <h5 class="card-title">Über Uns</h5>
-                    <p class="card-text">
-                        Willkommen beim Musikverein Sailauf!
-                    </p>
+                    <h5 class="card-title" id="about">Willkommen beim Musikverein Sailauf!</h5>
                     <p class="card-text">
                         Wir sind eine engagierte Gruppe von Musikern und Musikliebhabern, die sich der Förderung der
                         Musik verschrieben haben. Gegründet im Jahr 1923, besteht unser Verein heute aus einem

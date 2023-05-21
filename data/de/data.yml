@@ -14,6 +14,8 @@ abbildungen:
   zweiterVorstand: images/vorstand/user.avif
   jugendleitung: images/vorstand/user.avif
   pressewart: images/vorstand/user.avif
+  masthead_wide: images/aktuelles/2023_Vatertag.avif
+  masthead_small: images/aktuelles/2023_01_Mai.avif
 
 vorstand:
   ersterVorstand: "Joachim Knopp  \n Hauptstraße 19  \n 63877 Eichenberg"
