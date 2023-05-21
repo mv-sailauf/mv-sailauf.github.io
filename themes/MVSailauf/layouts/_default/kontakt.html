@@ -1,8 +1,7 @@
 {{ define "content" }}
 {{ $data := index site.Data site.Language.Lang }}
 {{ with $data.data.vorstand }}
-
-<div class="container pt-3">
+<div class="container pt-1 pb-3">
     <div class="row justify-content-center">
         <div class="col-lg-3 pt-3 align-items-stretch d-flex">
             <div class="card w-100">
@@ -111,7 +110,7 @@
             </div>
         </div>
     </div>
-    <div class="row pb-3">
+    <div class="row pt-3">
         <div class="col-lg-6 pt-3 align-items-stretch d-flex">
             {{ partial "mitglied.html" .}}
         </div>
