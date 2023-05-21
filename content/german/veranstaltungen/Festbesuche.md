@@ -6,7 +6,11 @@ layout: Veranstaltungen
 resources:
     images:
     - name: "Marco und Roger"
-      src: "/images/veranstaltungen/Marco_Roger.avif"
+      src: "/images/veranstaltungen/Festbesuche/Marco_Roger.avif"
+    - name: "Blech"
+      src: "/images/veranstaltungen/Festbesuche/Blech.avif"
+    - name: "Holz"
+      src: "/images/veranstaltungen/Festbesuche/Holz.avif"
     - name: "Vatertag 2023"
       src: "/images/aktuelles/2023_Vatertag.avif"
 ---
