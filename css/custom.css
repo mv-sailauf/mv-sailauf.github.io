@@ -18,3 +18,37 @@ body {
   background-color:#2058afff;
   border-color:#2058afff
 }
+
+/* Masthead */
+
+.masthead {
+  position: relative;
+  height: 100vh;
+}
+.masthead h1, .masthead .h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0.5rem;
+  background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .8));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.masthead h2, .masthead .h2 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .8));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+@media (min-width: 992px) {
+  .masthead h1, .masthead .h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .masthead h2, .masthead .h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
