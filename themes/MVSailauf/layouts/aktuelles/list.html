@@ -1,24 +1,45 @@
 {{ define "content" }}
-<div class="container pt-1 pb-3">
-    {{ range .Pages.ByPublishDate.Reverse }}
-    <div class="row justify-content-center pt-3">
-        <div class="col-xl-8">
-            <div class="card">
-                {{ if fileExists (printf "static%s" .Params.Image) }}
-                <img class="card-img-top" load="lazy" src="{{ .Params.Image | relURL}}" alt="{{if .Params.Image_Title}} {{- .Params.Image_Title -}} {{else}} {{- .Params.Image -}} {{end}}">
-                {{ end }}
-                <div class="card-body">
-                <h5 class="card-title">{{ .Title }}</h5>
-                <p class="card-text">
-                    {{ .Content }}
-                </p>
+{{- $odd := true}}
+<div class="d-none d-lg-block">
+    <div class="container pt-1">
+        <div class="row justify-content-center pb-3">
+            <div class="col-lg-6">
+                <div class="row">
+                    {{ range .Pages.ByPublishDate.Reverse }}
+                    {{if $odd}}
+                    <div class="col-lg-12 pt-3">
+                {{ partial "aktuellesCard.html" .}}
+                    </div>
+                    {{ end }}
+                    {{$odd = not $odd}}
+                    {{ end }}
+                </div>
             </div>
-            
+            <div class="col-lg-6">
+                <div class="row">
+                    {{$odd = false}}
+                    {{ range .Pages.ByPublishDate.Reverse }}
+                    {{if $odd}}
+                    <div class="col-lg-12 pt-3">
+                        {{ partial "aktuellesCard.html" .}}
+                    </div>
+                    {{ end }}
+                    {{$odd = not $odd}}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="d-block d-lg-none">
+    <div class="container pb-3">
+        <div class="row justify-content-center pt-3">
+            {{ range .Pages.ByPublishDate.Reverse }}
+            <div class="col-lg-6 pt-3">
+                        {{ partial "aktuellesCard.html" .}}
+            </div>
+            {{ end }}
         </div>
     </div>
 </div>
 {{ end }}
-</div>
-{{ end }}
-
-
