@@ -6,7 +6,7 @@ image:
 resources:
     images:
     - name: Plakat 
-      src: "/images/veranstaltungen/MVS-Plakat-100-Jahre-ohneinhalt.avif"
+      src: "/images/veranstaltungen/MV-Plakat.avif"
 layout: Veranstaltungen
 ---
 
@@ -14,6 +14,4 @@ Liebe Musikfreunde,
 
 wir möchten Sie herzlich dazu einladen, mit uns die 100-jährige Geschichte des Musikvereins Sailauf zu feiern. 
 Seit 1923 begeistern wir mit unserer Musik die Menschen und sind stolz darauf, ein wichtiger Teil der Gemeinschaft zu sein.
-
-Die genauen Informationen zu unserem Fest werden noch bekanntgegeben.
 
