@@ -1,5 +1,13 @@
 <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light">
     <div class="container-fluid">
+        {{if eq $.Page.Title "Das Jugendorchester"}}
+        <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}">
+            <div class="text-secondary">
+                <img src="/images/jugend/logo.avif" height="42" alt="">
+                <span style="vertical-align:middle">MVS Jugend</span>
+            </div>
+        </a>
+        {{ else }}
         <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}">
             {{ if site.Params.logo }}
             <div class="text-secondary">
@@ -10,6 +18,7 @@
                 {{ end }}
             </div>
         </a>
+        {{ end }}
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,12 +46,14 @@
                     <ul class="dropdown-menu">
                         {{ range .Site.Menus.main.ByWeight }}
                         {{ if gt .Weight 10 }}
+                        {{ if ne .Weight 11 }}
                         <li>
                             <a class="dropdown-item" href="{{ .URL }}">
                                 {{ .Name }}
                             </a>
                         </li>
                         {{end }}
+                        {{ end }}
                         {{ end }}
                     </ul>
                 </li>

@@ -16,7 +16,7 @@
             {{ end }}
             <div class="card-body">
               <h5 class="card-title">{{ .name | markdownify}}</h5>
-              <p class="card-text">{{.text | markdownify}}</p>
+              <div class="card-text text-break blocksatz">{{.text | markdownify}}</div>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
             {{ end }}
             <div class="card-body">
               <h5 class="card-title">{{ .name }}</h5>
-              <p class="card-text">{{.text | markdownify}}</p>
+              <div class="card-text text-break blocksatz">{{.text | markdownify}}</div>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
             {{ end }}
             <div class="card-body">
               <h5 class="card-title">{{ .name }}</h5>
-              <p class="card-text">{{.text | markdownify}}</p>
+              <div class="card-text text-break blocksatz">{{.text | markdownify}}</div>
             </div>
           </div>
         </div>
