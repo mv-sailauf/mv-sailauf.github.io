@@ -6,6 +6,7 @@ body {
 .blocksatz{
         text-align: justify;
         text-justify: auto;  
+        hyphens: auto;
         /*word-break: break-all;*/
 }
 
