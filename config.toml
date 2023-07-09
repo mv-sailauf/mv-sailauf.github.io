@@ -4,6 +4,8 @@ title = "Musikverein 1923 Sailauf"
 theme = "MVSailauf"
 # disable language
 defaultContentLanguage = "de"
+timeout = "10m"
+
 
 ################### German Navigation ########################
 [[Languages.de.menu.main]]
@@ -19,17 +21,17 @@ weight = 3
 [[Languages.de.menu.main]]
 name = "Instrumentalausbildung"
 url = "/instrumentalausbildung"
-weight = 4
+weight = 15
 
 [[Languages.de.menu.main]]
 name = "„Das Blättchen“"
 url = "/blaettchen"
-weight = 5
+weight = 14 
 
 [[Languages.de.menu.main]]
 name = "Kontakt"
 url = "/kontakt"
-weight = 6
+weight = 7
 
 [[Languages.de.menu.main]]
 name = "Sponsoren"
