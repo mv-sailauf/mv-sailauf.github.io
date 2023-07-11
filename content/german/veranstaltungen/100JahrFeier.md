@@ -6,7 +6,7 @@ image:
 resources:
     images:
     - title: Plakat 
-      src: "/images/veranstaltungen/MV-Plakat.avif"
+      src: "/images/veranstaltungen/MV-Plakat.jpg"
 layout: Veranstaltungen
 ---
 

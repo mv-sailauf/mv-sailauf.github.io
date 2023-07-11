@@ -5,7 +5,7 @@ draft: false
 resources:
     images:
     - title: Probe
-      src: "/images/veranstaltungen/Starkbierfest.avif"
+      src: "/images/veranstaltungen/Starkbierfest.jpeg"
 layout: Veranstaltungen
 ---
 Mit diesem Fest wird der Veranstaltungskalender mit einer Besonderheit gefüllt. 
