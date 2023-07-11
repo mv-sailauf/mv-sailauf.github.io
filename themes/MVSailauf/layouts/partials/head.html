@@ -3,7 +3,8 @@
 
     <link rel="stylesheet" href="/css/bootstrap-523.min.css">
 
-    <link rel='stylesheet' href='/css/montserrat.css' type='text/css'>
+    <link rel="preload" href="/css/montserrat.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
     <link rel="stylesheet" href="/css/custom-fonts.css">
     <link rel="stylesheet" href="/css/custom.css">
 
@@ -16,7 +17,7 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" /> 
     <title>{{ if .Title }} {{ .Title }} {{ else }} {{ site.Params.title }} {{end}}</title>
     {{ if .Title }}
     <meta name="description" content="{{ .Title }}">
