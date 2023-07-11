@@ -2,22 +2,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 
     <link rel="stylesheet" href="/css/bootstrap-523.min.css">
-
     <link rel="preload" href="/css/montserrat.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
     <link rel="stylesheet" href="/css/custom-fonts.css">
     <link rel="stylesheet" href="/css/custom.css">
 
     <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon.png" type="image/png">
     <link rel="icon" href="/favicons/favicon.ico">
-    
     <link rel="manifest" href="/favicons/site.webmanifest">
     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#7d7d7d">
     <meta name="msapplication-TileColor" content="#7d7d7d">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" /> 
+    <link rel="preload" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
     <title>{{ if .Title }} {{ .Title }} {{ else }} {{ site.Params.title }} {{end}}</title>
     {{ if .Title }}
     <meta name="description" content="{{ .Title }}">
