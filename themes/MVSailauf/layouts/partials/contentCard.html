@@ -1,0 +1,18 @@
+<!--
+    creates a card top with a top-carousel or a top-image 
+    Title: title of the carousel
+    Content: content of the card
+	Images: the slice of the images
+        - title
+          src
+    widths: computation of the width plus percentage: e.g. md 50 stands for col-md-6
+-->
+<div class="card">
+    {{- partial "card_top.html" (dict "images" .Images "title" .Title "widths" .widths) -}}
+    <div class="card-body">
+        <h5 class="card-title">{{ .Title }}</h5>
+        <div class="card-text text-break blocksatz">
+            {{ .Content }}
+        </div>
+    </div>
+</div>

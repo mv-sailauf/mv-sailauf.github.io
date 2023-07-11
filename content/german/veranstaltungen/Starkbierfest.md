@@ -4,7 +4,7 @@ title: "Starkbierfest"
 draft: false
 resources:
     images:
-    - name: Probe
+    - title: Probe
       src: "/images/veranstaltungen/Starkbierfest.avif"
 layout: Veranstaltungen
 ---

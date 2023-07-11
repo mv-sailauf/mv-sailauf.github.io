@@ -5,7 +5,7 @@ draft: false
 layout: Veranstaltungen
 resources:
     images:
-    - name: Image
+    - title: Image
 ---
 
 Neben unseren großen Veranstaltungen finden auch noch Aktionen wie das Neujahranspielen in der Sailaufer Ortsmitte, Auftritt beim Rot-Kreuz-Weihnachtsmarkt, das Begleiten von kirchlichen Ereignisse und zahlreiche, Ständchen statt.

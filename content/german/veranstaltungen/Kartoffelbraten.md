@@ -4,10 +4,10 @@ title: "Kartoffelbraten"
 draft: false
 resources:
     images:
-    - name: Feuer
-      src: "/images/veranstaltungen/Kartoffelfeuer.avif"
-    - name: Hähnchen 
-      src: "/images/veranstaltungen/Kartoffelbraten.avif"
+    - title: Feuer
+      src: "/images/veranstaltungen/Kartoffelfeuer.jpg"
+    - title: Hähnchen 
+      src: "/images/veranstaltungen/Kartoffelbraten.jpg"
 layout: Veranstaltungen
 ---
 

@@ -3,3 +3,4 @@
 *.lock
 public/**
 website_service.sh
+resources/_gen/**/*

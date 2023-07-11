@@ -5,7 +5,7 @@ draft: false
 image: 
 resources:
     images:
-    - name: Plakat 
+    - title: Plakat 
       src: "/images/veranstaltungen/MV-Plakat.avif"
 layout: Veranstaltungen
 ---

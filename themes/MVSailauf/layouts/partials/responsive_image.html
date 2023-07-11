@@ -11,9 +11,10 @@
 {{- $class := "img-fluid bg-image" -}}
 
 {{- $src := resources.Get .image -}}
-{{- if .title -}} {{- $title = .title -}} {{ end}}
-{{ if .class }} {{- $class = .class -}} {{ end }}
-{{ if $src }}
+{{- if and $src (eq $src.MediaType.MainType "image") -}}
+{{- if .title -}} {{- $title = .title -}} {{ end -}}
+{{- if .class }} {{- $class = .class -}} {{ end -}}
+{{- if $src -}}
 <!-- compute sources -->
 <img src="{{- ($src.Resize (print 960 "x jpg " $filter ) ).RelPermalink -}}" srcset="
 {{- with $respSizes -}}
@@ -32,4 +33,5 @@
 {{- end -}}
 {{- end -}}
 100vw" class="{{- $class -}}" alt="{{- $title -}}" width="{{$src.Width}}" height="{{$src.Height}}" />
+{{ end }}
 {{ end }}
