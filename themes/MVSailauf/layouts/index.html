@@ -40,8 +40,7 @@
         </div>
         <div class="col-lg-6 pt-3 d-flex align-items-stretch">
             <div class="card">
-                <img class="card-img-top" src="{{ .instrumentalausbildung | relURL }}"
-                    alt="Instrumentalausbildung Abbildung">
+                {{- partial "responsive_image.html"  (dict "image" .instrumentalausbildung "title" "Instrumentalausbildung Abbildung" "class" "rounded-top img-fluid bg-image" "widths" (dict "lg" 50)) -}}
                 <div class="card-body">
                     <h5 class="card-title">Instrumentalausbildung</h5>
                     <p class="card-text text-break blocksatz">
