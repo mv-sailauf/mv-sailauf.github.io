@@ -2,7 +2,6 @@
 date: 2023-03-02T08:20:34+01:00
 title: "100 Jahre Musikverein Sailauf"
 draft: false
-image: 
 resources:
     images:
     - title: Plakat 

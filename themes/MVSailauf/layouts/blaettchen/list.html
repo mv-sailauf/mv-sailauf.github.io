@@ -3,7 +3,7 @@
     {{ range .Pages.ByPublishDate.Reverse }}
     <div class="row justify-content-center pt-3">
         <div class="col-xl-8">
-            {{ partial "contentCard.html" (dict "Context" . "Title" .Params.Title "Content" .Content "Images" .Params.Resources.Images "widths" (dict "xl" 67) "details" false) }}        
+            {{ partial "contentCard.html" (dict "Context" . "Title" .Params.Title "Content" .Content) }}        
         </div>
     </div>
 {{ end }}

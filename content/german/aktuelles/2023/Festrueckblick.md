@@ -2,8 +2,10 @@
 date: 2023-06-27T17:01:13+02:00
 title: "Festrückblick (1000m Kabel für 100 Jahre MVS)"
 draft: false
-image: "/images/aktuelles/2023_Fest_Afterpost.avif"
-image_title: "100 Jahr Feier Aufräumaktion"
+resources:
+    images:
+    - title: "100 Jahr Feier Aufräumaktion"
+      src: "/images/aktuelles/2023_Fest_Afterpost.jpeg"
 ---
 
 

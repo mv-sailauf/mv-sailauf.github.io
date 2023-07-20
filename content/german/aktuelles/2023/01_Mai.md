@@ -2,8 +2,10 @@
 date: 2023-05-02T19:12:39+02:00
 title: "Der Mai ist gekommen"
 draft: false
-image: "/images/aktuelles/2023_01_Mai.avif"
-image_title: "1. Mai 2023"
+resources:
+    images:
+    - title: "1. Mai 2023"
+      src: "/images/aktuelles/2023_01_Mai.jpeg"
 ---
 
 
