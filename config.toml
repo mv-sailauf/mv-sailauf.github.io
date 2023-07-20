@@ -52,6 +52,8 @@ weight = 11
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo_new.svg"
+jugendlogo = "images/logo_jugend.svg"
+maskottchen = "images/Engelbert.svg"
 author = "Paul Gerhart"
 title = "Musikverein 1923 Sailauf"
 ustid = ""
