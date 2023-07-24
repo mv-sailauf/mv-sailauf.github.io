@@ -4,8 +4,10 @@ title: "Kerb Heinrichtal"
 draft: false
 resources:
     images:
-    - name: "Image"
+    - title: "Kerb in Heinrichstal Prost"
       src: "/images/aktuelles/2023_Kerb_Heinrichtsal.jpeg"
+    - title: "Kerb in Heinrichstal Gesang"
+      src: "/images/aktuelles/2023_Kerb_Heinrichstal_2.jpeg"
 ---
 
 Am 15.07.23 waren wir bei den Heinrichtsthaler Musikanten zu Gast. 60 Jahre Musikverein Heinrichtsthal musste natürlich ordentlich gefeiert werden.
