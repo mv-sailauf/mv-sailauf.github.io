@@ -10,7 +10,7 @@ resources:
 
 Wir suchen einen Instrumentalausbilder für Saxophon und Klarinette.
 
-Du selbst hast interesse, doer kensnt jemanden?
+Du selbst hast interesse, oder kennst jemanden?
 Dann melde dich bei unserer Jugendleitung Vanessa Hartmann unter ausbildung@mv1923sailauf.de, oder 0176 94336069!
 
 
