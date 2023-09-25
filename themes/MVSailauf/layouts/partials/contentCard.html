@@ -11,6 +11,9 @@
     {{- partial "card_top.html" (dict "images" .Images "title" .Title "widths" .widths) -}}
     <div class="card-body">
         <h5 class="card-title">{{ .Title }}</h5>
+        {{ if .Subtitle }}
+        <h6 class="card-subtitle mb-2 text-muted">{{.Subtitle}}</h6>
+        {{ end}}
         <div class="card-text text-break blocksatz">
             {{ .Content }}
         </div>
