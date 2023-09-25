@@ -11,19 +11,17 @@ resources:
 
 
 ###### Tagesordnung:
-{{< center >}}
-|          |                    |
-|----------|--------------------|
-| 1. | Begrüßung mit Totengedenken |
-| 2. |Bericht des Vorstandes |
-| 3. | Bericht der Jugendleitung |
-| 4. | Kassenbericht |
-| 5. | Bericht der Kassenprüfer | 
-| 6. | Satzungsänderungen | 
-| 7. | Entlastung der Vorstandschaft| 
-| 8. | Neuwahlen|
-| 9. | Verschiedenes - Wünsche und Anträge |  
-{{< /center >}}
+
+1.  Begrüßung mit Totengedenken 
+2. Bericht des Vorstandes 
+3.  Bericht der Jugendleitung 
+4.  Kassenbericht 
+5.  Bericht der Kassenprüfer 
+6.  Satzungsänderungen 
+7.  Entlastung der Vorstandschaft
+8.  Neuwahlen
+9.  Verschiedenes - Wünsche und Anträge 
+
 ****
 
 Satzungsändernde Anträge sind spätestens eine Woche vor der Jahreshauptversammlung schriftlich beim 1. Vorstand Herrn Joachim Knopp (Hauptstraße 19, 63877 Sailauf) einzureichen.
