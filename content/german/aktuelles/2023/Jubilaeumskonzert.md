@@ -5,7 +5,7 @@ draft: false
 resources:
     images:
     - name: "Image"
-      src: "/images/aktuelles/2023_Sailauf-Plakat-Jubiläumskonzert.jpg"
+      src: "/images/aktuelles/2023_Sailauf-Plakat-Jubilaeumskonzert.jpg"
 ---
 
 Zum 100. Geburtstag gibt es für euch einen verrückten Abend voller bekannter Melodien von den 60ern bis heute - Hits, Hits und noch mehr Hits. Keine Angst, ihr kennt sie alle. 
