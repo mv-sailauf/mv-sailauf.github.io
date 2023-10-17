@@ -65,16 +65,17 @@
                     <table class="table">
                         <tr>
                             <td>
-                                {{ .ersteJugendleitung }} </br>
-                                {{ .ersteJugendleitungMobil }}
+                                {{ .jugendleitung }} </br>
                             </td>
                         </tr>
                         <tr>
+                            <td>
+                                {{ .jugendleitungEmail }}
+                            </td>
                         </tr>
                         <tr>
                             <td>
-                                {{ .zweiteJugendleitung }} </br>
-                                {{ .zweiteJugendleitungMobil }}
+                                {{ .jugendleitungMobil }}
                             </td>
                         </tr>
                     </table>
@@ -115,7 +116,7 @@
             {{ partial "mitglied.html" .}}
         </div>
         {{ with $data.data.contact }}
- 
+
         <div class="col-lg-6 pt-3">
             <div class="card w-100">
                 <div class="card-body">
@@ -124,9 +125,9 @@
                     <table class="table">
                         <tr>
                             <td>
-                               {{ .title }}</br>
-                               {{ .address_1 }} </br>
-                               {{ .address_2 }}
+                                {{ .title }}</br>
+                                {{ .address_1 }} </br>
+                                {{ .address_2 }}
                             </td>
                         </tr>
                         <tr>

@@ -16,19 +16,18 @@ abbildungen:
   pressewart: images/vorstand/user.avif
 
 vorstand:
-  ersterVorstand: "Joachim Knopp  \n Hauptstraße 19  \n 63877 Eichenberg"
-  ersterVorstandMobil: "+49 170-805 3174"
-  zweiterVorstand: "Franz Josef Imgrund  \n 63877 Sailauf"
+  ersterVorstand: "Anette Mieke  \n   \n 63877 Sailauf"
+  ersterVorstandMobil: "+49 151 2227 8206"
+  zweiterVorstand: "Sabrina Weigelt"
   zweiterVorstandMobil: "+49 151-1532 3018"
 
-  ersteJugendleitung: "Anette Mieke"
-  ersteJugendleitungMobil: "+49 151-2227 8206"
-  zweiteJugendleitung: "Vanessa Hartmann"
-  zweiteJugendleitungMobil: "+49 176-9433 6069"
+  jugendleitung: "Vanessa Hartmann"
+  jugendleitungMobil: "+49 176 9433 6069"
+  jugendleitungEmail: "ausbildung [at] mv1923sailauf.de"
 
   pressewart : "Roger Schmitt"
   pressewartMobil : ""
-  pressewartEmail : ""
+  pressewartEmail : "pressewart [at] mv1923sailauf.de"
 
   dirigent : "Ingo Krenz"
 
@@ -36,4 +35,4 @@ ausbilder:
   schlagzeug : "Stefan Müller"
   blechblasinstrumente : "Ingo Krenz"
   querflöte : "Sabrina Weigelt"
-  klavier : "Vita Jonele"
+  klavier : "Jonele Vita"
