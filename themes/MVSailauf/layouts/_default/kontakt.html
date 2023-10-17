@@ -17,6 +17,11 @@
                                 {{ .ersterVorstand | markdownify}}
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                {{ .ersterVorstandKontakt | markdownify}}
+                            </td>
+                        </tr>
 
                         <tr>
                             <td>
@@ -40,6 +45,11 @@
                         <tr>
                             <td>
                                 {{ .zweiterVorstand | markdownify}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ .zweiterVorstandKontakt | markdownify}}
                             </td>
                         </tr>
 
@@ -94,14 +104,20 @@
                     <table class="table">
                         <tr>
                             <td>
-                                {{ .pressewart}} </br>
-                                {{ .pressewartMobil}}
+                                {{ .pressewart}}
                             </td>
                         </tr>
                         {{ if .pressewartEmail}}
                         <tr>
                             <td>
                                 {{ .pressewartEmail}}
+                            </td>
+                        </tr>
+                        {{ end }}
+                        {{ with .pressewartMobil}}
+                        <tr>
+                            <td>
+                                {{ .}}
                             </td>
                         </tr>
                         {{ end }}

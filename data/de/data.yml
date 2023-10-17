@@ -16,17 +16,19 @@ abbildungen:
   pressewart: images/vorstand/user.avif
 
 vorstand:
-  ersterVorstand: "Anette Mieke  \n   \n 63877 Sailauf"
+  ersterVorstand: "Anette Mieke  "
+  ersterVorstandKontakt: "\n 63877 Sailauf"
   ersterVorstandMobil: "+49 151 2227 8206"
   zweiterVorstand: "Sabrina Weigelt"
-  zweiterVorstandMobil: "+49 151-1532 3018"
+  zweiterVorstandMobil: "+49 163 2908 811"
+  zweiterVorstandKontakt: "\n 63877 Sailauf"
 
   jugendleitung: "Vanessa Hartmann"
   jugendleitungMobil: "+49 176 9433 6069"
   jugendleitungEmail: "ausbildung [at] mv1923sailauf.de"
 
   pressewart : "Roger Schmitt"
-  pressewartMobil : ""
+  pressewartMobil : "+49 173 9601 952"
   pressewartEmail : "pressewart [at] mv1923sailauf.de"
 
   dirigent : "Ingo Krenz"
