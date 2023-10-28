@@ -1,0 +1,99 @@
+{{ define "content" }}
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.data }}
+<div class="container pt-1 pb-3">
+    <div class="row justify-content-center">
+        <div class="col-12 pt-3 d-flex align-items-stretch">
+            <div class="card w-100">
+                <img class="card-img-top" src="{{ .abbildungen.jugendorchester | relURL }}"
+                    alt="Jugendorchester Abbildung">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 pb-3">
+                            <h5 class="card-title">Das Jugendorchester des Musikverein 1923 Sailauf
+                                e.V.</h5>
+                            <p class="card-text text-break blocksatz"> Leidenschaftliche Musikalität und musikalisches
+                                Talent treffen
+                                aufeinander
+                                im Jugendorchester des Musikvereins 1923 Sailauf. Wir sind stolz darauf, jungen
+                                Musikerinnen
+                                und Musikern eine Plattform zu bieten, auf der sie ihr Können entwickeln, ihre
+                                Leidenschaft
+                                für Musik entfalten und gemeinsam wachsen können.
+                            </p>
+                            <p class="card-text text-break blocksatz">
+                                Unser Jugendorchester besteht aus talentierten Kindern und Jugendlichen im Alter von 10
+                                bis
+                                18 Jahren, die von unserem Dirigenten {{.vorstand.dirigent}} betreut werden.
+                                Mit viel Freude und Hingabe treffen wir uns jeden Freitag abend um 19:00 Uhr zu Proben,
+                                um
+                                an unserem Repertoire
+                                zu arbeiten und unsere musikalischen Fähigkeiten zu verbessern.
+                            </p>
+                            <p class="card-text text-break blocksatz">
+                                Das Jugendorchester des Musikvereins 1923 Sailauf bietet jungen Musikerinnen und
+                                Musikern
+                                die Möglichkeit, in einem inspirierenden und unterstützenden Umfeld gemeinsam zu
+                                musizieren.
+                                Wir glauben fest daran, dass Musik nicht nur eine Kunstform ist, sondern auch eine
+                                Möglichkeit, Freundschaften zu knüpfen und wertvolle Lebenskompetenzen zu erlernen.
+                            </p>
+                            <p class="card-text text-break blocksatz">
+                                Unsere Repertoire umfasst vor Allem moderne Lieder aus den Charts, aber auch
+                                traditionelle
+                                Blasmusik.
+                                Wir haben die Gelegenheit, bei verschiedenen Veranstaltungen und Konzerten aufzutreten,
+                                sowohl innerhalb der Gemeinde Sailauf als auch in der Region.
+                            </p>
+                            <p class="card-text text-break blocksatz">
+                                Neben unserer musikalischen Ausbildung legen wir auch großen Wert auf die Förderung von
+                                Teamgeist, Disziplin und Zusammenarbeit.
+                                Im Jugendorchester des Musikvereins 1923 Sailauf lernen die jungen Musikerinnen und
+                                Musiker
+                                wichtige Fähigkeiten wie Durchhaltevermögen, Verantwortungsbewusstsein und die Bedeutung
+                                von
+                                gegenseitigem Respekt.
+                            </p>
+                            <p class="card-text text-break blocksatz">
+                                Wenn du ein musikbegeisterter junger Mensch bist, der gerne Teil eines
+                                leidenschaftlichen
+                                und talentierten Orchesters sein möchte, dann bist du bei uns genau richtig!
+                                Wir freuen uns über neue Mitglieder und laden dich herzlich dazu ein, uns bei einer
+                                unserer
+                                Proben zu besuchen und uns kennenzulernen.
+                                Wir freuen uns darauf, dich in unserer musikalischen Familie willkommen zu heißen!
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/images/jugend/Maskottchen/Engelbert.avif" class="rounded float-end" width="100"
+                                alt="Unser Maskottchen: Engelbert Specht">
+                            <h5 class="card-title">Unser Maskottchen: Engelbert Specht</h5>
+                            <p class="card-text text-break blocksatz"> Wir möchten Ihnen Engelbert Specht vorstellen,
+                                das fröhliche Maskottchen des Musikvereins 1923 Sailauf (MVS). Engelbert ist ein
+                                bezaubernder und liebenswerter Specht, der mit seinem charmanten Charakter und seiner
+                                musikalischen Leidenschaft alle Herzen erobert.
+                            </p>
+                            <p class="card-text text-break blocksatz"> Engelbert begleitet uns bei zahlreichen
+                            Veranstaltungen und Auftritten des MVS und sorgt immer für gute Stimmung und positive
+                            Energie. Mit seinem fröhlichen Gesichtsausdruck und seinen bunten Federn verkörpert er die
+                            Freude und Begeisterung, die wir in unserer Musik zum Ausdruck bringen.
+                            </p>
+                            <p class="card-text text-break blocksatz"> Ob bei Konzerten, Musikfestivals oder
+                            Gemeindeveranstaltungen - Engelbert ist immer zur Stelle und motiviert uns, unser Bestes zu
+                            geben. Seine Anwesenheit erinnert uns daran, dass Musik nicht nur eine ernste Kunstform ist,
+                            sondern auch Spaß machen und uns alle verbinden kann.
+                            </p>
+                            <p class="card-text text-break blocksatz"> Engelbert ist nicht nur ein Symbol des MVS,
+                            sondern auch ein beliebtes Maskottchen bei Kindern und Erwachsenen gleichermaßen. Er ist
+                            immer bereit, mit den jungen Musikerinnen und Musikern des Jugendorchesters zu interagieren
+                            und ihnen ein Lächeln ins Gesicht zu zaubern.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ end }}

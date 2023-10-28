@@ -29,6 +29,16 @@ url = "/blaettchen"
 weight = 14 
 
 [[Languages.de.menu.main]]
+name = "Jugendorchester"
+url = "/jugendorchester"
+weight = 5
+
+[[Languages.de.menu.main]]
+name = "Stammorchester"
+url = "/stammorchester"
+weight = 6
+
+[[Languages.de.menu.main]]
 name = "Kontakt"
 url = "/kontakt"
 weight = 7
