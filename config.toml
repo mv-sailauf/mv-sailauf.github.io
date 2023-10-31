@@ -5,6 +5,7 @@ theme = "MVSailauf"
 # disable language
 defaultContentLanguage = "de"
 timeout = "10m"
+disableKinds = ['rss']
 
 
 ################### German Navigation ########################
