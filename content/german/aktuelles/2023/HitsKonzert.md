@@ -6,8 +6,10 @@ resources:
     images:
     - name: "Hits Konzert 2023 Gruppenfoto"
       src: "/images/aktuelles/2023_HitsKonzert1.jpg"
-    - name: "Hits Konzert 2023 Gruppenfoto"
+    - name: "Hits Konzert 2023 Felix Klössner"
       src: "/images/aktuelles/2023_HitsKonzert2.jpg"
+    - name: "Hits Konzert 2023 Performance"
+      src: "/images/aktuelles/2023_HitsKonzert3.jpg"
 ---
 
 Tanzende Scheinwerfer, Knicklichter, Nebel und jede Menge Hits aus allen Jahrzehnten... all das gab es bei unserem Konzert. 
