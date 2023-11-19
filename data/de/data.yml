@@ -9,8 +9,10 @@ contact:
 abbildungen:
   jugendorchester: 
     - src: "images/index/Jugendorchester.jpg" 
-      title: "Jugendorchester"
-  stammorchester: images/index/stammorchester.avif
+      title: "Unser Jugendorchester"
+  stammorchester: 
+    - src: "images/index/Stammorchester.jpg" 
+      title: "Das Stammorchester"
   instrumentalausbildung: images/index/miniature_figure.jpeg
   ersterVorstand: images/vorstand/user.avif
   zweiterVorstand: images/vorstand/user.avif
