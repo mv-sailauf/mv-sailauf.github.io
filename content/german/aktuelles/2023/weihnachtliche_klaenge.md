@@ -4,8 +4,9 @@ title: "Weihnachtliche Klänge am 15.12.2023"
 draft: false
 resources:
     images:
-    - name: "Image"
+    - name: "Weihnachtliche Klänge 2023"
       src: "/images/aktuelles/2023_Weihnachten_Plakat.png"
+
 ---
 
 
