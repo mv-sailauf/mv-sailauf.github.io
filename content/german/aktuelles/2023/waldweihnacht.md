@@ -4,8 +4,6 @@ title: "Waldweihnacht der Feuerwehr Sailauf"
 draft: false
 resources:
     images:
-    - name: "Image"
-      src: "/images/aktuelles/"
 ---
 
 
