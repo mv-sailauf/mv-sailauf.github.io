@@ -9,43 +9,43 @@ disableKinds = ['rss']
 
 
 ################### German Navigation ########################
-[[Languages.de.menu.main]]
+[[menu.main]]
 name = "Aktuelles"
 url = "/aktuelles"
 weight = 1
 
-[[Languages.de.menu.main]]
+[[menu.main]]
 name = "Veranstaltungen"
 url = "/veranstaltungen"
 weight = 3
 
-[[Languages.de.menu.main]]
+[[menu.main]]
 name = "Instrumentalausbildung"
 url = "/instrumentalausbildung"
 weight = 15
 
-[[Languages.de.menu.main]]
+[[menu.main]]
 name = "„Das Blättchen“"
 url = "/blaettchen"
 weight = 14 
 
-[[Languages.de.menu.main]]
+[[menu.main]]
 name = "Kontakt"
 url = "/kontakt"
 weight = 7
 
-[[Languages.de.menu.main]]
+[[menu.main]]
 name = "Sponsoren"
 url = "/sponsoren"
 weight = 12
 
 
-[[Languages.de.menu.main]]
+[[menu.main]]
 name = "Impressum"
 url = "/imprint"
 weight = 11 
 
-# [[Languages.de.menu.main]]
+# [[menu.main]]
 # name = "Mitglied werden"
 # url = "/mitglied"
 # weight = 13 
