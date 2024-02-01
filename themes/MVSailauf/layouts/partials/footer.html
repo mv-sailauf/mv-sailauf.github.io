@@ -1,3 +1,5 @@
+<footer class="mt-auto">
+
 <nav class="navbar navbar-expand bg-light navbar-light">
 	<ul class="navbar-nav center-text mx-auto">
 		{{ $currentPage := . }}
@@ -18,20 +20,8 @@
 	</ul>
 </nav>
 
+</footer>
 
 
 
 <script src="/js/bootstrap-523.bundle.min.js"></script>
-
-<script>
-	function set_lang() {
-		lang = document.documentElement.lang
-		if (lang == "en-us") {
-			if (!location.pathname.startsWith('/de')) {
-				location = "/de" + location.pathname
-			}
-		} else {
-			location = location.pathname.replace('/de/', '/')
-		}
-	}
-</script>

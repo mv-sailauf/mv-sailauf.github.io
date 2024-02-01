@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="de-de">
+<html lang="de-de" class="h-100">
 {{ partial "head.html" . }}
 
-<body id="body" class="bg-light">
+<body id="body" class="d-flex flex-column h-100 bg-light">
     <header>
         {{ partial "navbar.html" . }}
     </header>
-  <div id="content">
+  <main id="content">
     {{- block "content" . }}{{- end }}
-  </div>
+  </main>
   {{ partial "footer.html" . }}
 </body>
 </html>
