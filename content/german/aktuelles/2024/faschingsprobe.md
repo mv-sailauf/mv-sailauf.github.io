@@ -10,4 +10,4 @@ resources:
 
 Dieses Jahr gab es wieder eine närrische Faschingsprobe. 
 Hippies, Cowboys, Pippi Langstrumpf und sogar ein Frosch waren vertreten. 
-hDie vielen verschiedenen Kostüme sorgten für eine richtige Gaudi.
+Die vielen verschiedenen Kostüme sorgten für eine richtige Gaudi.
