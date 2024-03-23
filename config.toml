@@ -60,10 +60,9 @@ title = "Musikverein 1923 Sailauf"
 ustid = ""
 
 ################################ German Language ########################
-[Languages.de]
+[languages.de]
 languageName = "De"
 languageCode = "de-de"
 contentDir = "content/german"
 weight = 2
-home = "Home"
 copyright = "Copyright &copy; 2022 Musikverein Sailauf"
