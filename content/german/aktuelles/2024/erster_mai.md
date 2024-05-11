@@ -1,7 +1,7 @@
 ---
 date: 2024-05-03T22:25:07+02:00
 title: "Maibaumaufstellung am 30.04.2024"
-subtitle: "Wir bedanken uns bei unserem jüngsten Fan und zukünftigen Bariton Saxophonisten Jona Hundertmark für das Portrait."
+subtitle: "Wir bedanken uns bei unserem jüngsten Fan und zukünftigen Bariton Saxophonisten Jona Hundertmark für das schöne Portrait."
 draft: false
 resources:
     images:
