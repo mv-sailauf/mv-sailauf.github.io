@@ -5,6 +5,8 @@ draft: false
 resources:
     images:
     - name: "Image"
+      src: "/images/aktuelles/2024/2024_maibaum_zeichnung.png"
+    - name: "Image"
       src: "/images/aktuelles/2024/2024_maibaum.jpg"
 ---
 
