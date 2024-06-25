@@ -5,7 +5,7 @@ draft: false
 resources:
     images:
     - name: "Image"
-      src: "/images/aktuelles/"
+      src: "/images/aktuelles/2024/2024_jugend_uebernachtung.jpg"
 ---
 Letztes Jahr gab es ein Probewochenende für das Stammorchester. Dieses Jahr war die Jugend an der Reihe und konnte sich ein ganzes Wochenende lang auf unser diesjähriges Konzert vorbereiten. 
 
