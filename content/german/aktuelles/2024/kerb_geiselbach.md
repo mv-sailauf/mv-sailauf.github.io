@@ -6,7 +6,7 @@ draft: false
 resources:
     images:
     - name: "Image"
-      src: "/images/aktuelles/"
+      src: "/images/aktuelles/2024/2024_kerb_geiselbach.jpg"
 ---
 
 
