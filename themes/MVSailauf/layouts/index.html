@@ -8,7 +8,7 @@
 <!-- Index Page -->
 <div class="container" id="about">
     <div class="row justify-content-center">
-        <div class="col-lg-6 pt-3 d-flex align-items-stretch">
+        <div class="col-lg pt-4 d-flex align-items-stretch">
             <div class="card w-100">
                 <div class="card-body">
                     <h5 class="card-title" id="about">Willkommen beim Musikverein 1923 Sailauf e.V.!</h5>
@@ -38,9 +38,30 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 pt-3 d-flex align-items-stretch">
+
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 pt-4 d-flex align-items-stretch">
             <div class="card">
-                {{- partial "responsive_image.html"  (dict "image" .instrumentalausbildung "title" "Instrumentalausbildung Abbildung" "class" "rounded-top img-fluid bg-image" "widths" (dict "lg" 50)) -}}
+                {{- partial "responsive_image.html" (dict "image" .melodickids "title"
+                "Melodic Kids Abbildung" "class" "rounded-top img-fluid bg-image" "widths" (dict "lg" 50)) -}}
+                <div class="card-body">
+                    <h5 class="card-title">„Melodic Kids“</h5>
+                    <p class="card-text text-break blocksatz">
+                        Mit unseren <a href="melodickids" class="stretched-link text-dark">„Melodic Kids“</a>  
+                        haben Kinder der 1. und 2. Klasse die Möglichkeit, in einem einjährigen Kurs eine musikalische Grundausbildung zu erhalten und das Instrument Melodica kennenzulernen. 
+                    </p>
+                    <p class="card-text text-break blocksatz">
+                        Die Melodica ist ein gutes Einstiegsinstrument und bereitet die Kinder auf das spätere Erlernen eines anderen Instrumentes vor. 
+                        Noten- und Rhythmuslehre sowie das praktische Spiel werden einmal wöchentlich in einer Kleingruppe erarbeitet.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 pt-4 d-flex align-items-stretch">
+            <div class="card">
+                {{- partial "responsive_image.html" (dict "image" .instrumentalausbildung "title"
+                "Instrumentalausbildung Abbildung" "class" "rounded-top img-fluid bg-image" "widths" (dict "lg" 50)) -}}
                 <div class="card-body">
                     <h5 class="card-title">Instrumentalausbildung</h5>
                     <p class="card-text text-break blocksatz">
@@ -59,19 +80,20 @@
         </div>
     </div>
     <div class="row justify-content-center pb-3">
-        <div class="col-lg-6 pt-3 d-flex align-items-stretch">
+        <div class="col-lg-6 pt-4 d-flex align-items-stretch">
             <div class="card">
-                {{- partial "card_top.html" (dict "images" .jugendorchester "title" "Unser Jugendorchester" "widths" (dict "lg" 50 )) -}}
+                {{- partial "card_top.html" (dict "images" .jugendorchester "title" "Unser Jugendorchester" "widths"
+                (dict "lg" 50 )) -}}
                 <div class="card-body">
                     <h5 class="card-title">
                         <img src="{{ site.Params.jugendlogo | relURL }}" class="" height="40" alt="Logo MVS Jugend">
                         Das Jugendorchester
-                        <img src="{{ site.Params.maskottchen | relURL }}" class="" height="40" alt="Engelbert, Maskottchen des MVS Sailauf">
+                        <img src="{{ site.Params.maskottchen | relURL }}" class="" height="40"
+                            alt="Engelbert, Maskottchen des MVS Sailauf">
                     </h5>
                     <p class="card-text text-break blocksatz">
                         Aufbauend auf die Instrumentalausbildung können Kinder und Jugendliche Teil unserers
-                        Schüler-/<a href="jugendorchester"
-                        class="stretched-link text-dark">Jugendorchesters</a>
+                        Schüler-/<a href="jugendorchester" class="stretched-link text-dark">Jugendorchesters</a>
                         werden. Gemeinsam wird viel gelacht, musiziert und geprobt. Jeder, der neu in die
                         Gemeinschaft kommt, wird herzlich empfangen und wird sich sicherlich sofort wohlfühlen.
                         Geprobt wird <b>jeden Freitag</b> bei unserem Dirigenten
@@ -84,17 +106,19 @@
 
             </div>
         </div>
-        <div class="col-lg-6 pt-3 d-flex align-items-stretch">
+        <div class="col-lg-6 pt-4 d-flex align-items-stretch">
             <div class="card">
-                {{- partial "card_top.html" (dict "images" .stammorchester "title" "Unser Stammorchester" "widths" (dict "lg" 50 )) -}}
+                {{- partial "card_top.html" (dict "images" .stammorchester "title" "Unser Stammorchester" "widths" (dict
+                "lg" 50 )) -}}
                 <div class="card-body">
                     <h5 class="card-title">
                         <img src="{{site.Params.logo | relURL}}" class="rounded" height="40" alt="Logo MVS Sailauf">
-                        Das Stammorchester</h5>
+                        Das Stammorchester
+                    </h5>
 
                     <p class="card-text text-break blocksatz">
                         In unserem Erwachsenenorchester, dem <a href="stammorchester"
-                        class="stretched-link text-dark">Stammorchester</a>, steht das Musizieren ebenfalls an
+                            class="stretched-link text-dark">Stammorchester</a>, steht das Musizieren ebenfalls an
                         erster Stelle. Wir möchten gemeinsam den Spaß an der Musik ausleben. Hier durchlaufen wir
                         mit unserem Dirigenten
                         {{ with $data.data.vorstand }}
