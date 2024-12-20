@@ -12,11 +12,15 @@
         <div class="col-lg-12">
           <div class="card h-100 w-100">
             {{ if fileExists (printf "static/%s" .img) }}
-            <img class="card-img-top" load="lazy" src="{{ .img | relURL}}" alt="{{ .name }}">
+            <img class="card-img-top" loading="lazy" src="{{ .img | relURL }}" alt="{{ .name }}">
             {{ end }}
             <div class="card-body">
-              <h5 class="card-title">{{ .name | markdownify}}</h5>
-              <div class="card-text text-break blocksatz">{{.text | markdownify}}</div>
+              <h5 class="card-title">
+                <a href="{{ .url }}" target="_blank" class="text-decoration-none text-black stretched-link">
+                  {{ .name | markdownify }}
+                </a>
+              </h5>
+              <div class="card-text text-break blocksatz">{{ .text | markdownify }}</div>
             </div>
           </div>
         </div>
@@ -34,11 +38,15 @@
         <div class="col-lg-12">
           <div class="card h-100 w-100">
             {{ if fileExists (printf "static/%s" .img) }}
-            <img src="{{ .img | relURL}}" load="lazy" class="card-img-top" alt="{{ .name }}">
+            <img src="{{ .img | relURL }}" loading="lazy" class="card-img-top" alt="{{ .name }}">
             {{ end }}
             <div class="card-body">
-              <h5 class="card-title">{{ .name }}</h5>
-              <div class="card-text text-break blocksatz">{{.text | markdownify}}</div>
+              <h5 class="card-title">
+                <a href="{{ .url }}" target="_blank" class="text-decoration-none text-black stretched-link">
+                  {{ .name }}
+                </a>
+              </h5>
+              <div class="card-text text-break blocksatz">{{ .text | markdownify }}</div>
             </div>
           </div>
         </div>
@@ -56,11 +64,15 @@
         <div class="col-lg-12">
           <div class="card h-100 w-100">
             {{ if fileExists (printf "static/%s" .img) }}
-            <img src="{{ .img | relURL}}" load="lazy" class="card-img-top" alt="{{ .name }}">
+            <img src="{{ .img | relURL }}" loading="lazy" class="card-img-top" alt="{{ .name }}">
             {{ end }}
             <div class="card-body">
-              <h5 class="card-title">{{ .name }}</h5>
-              <div class="card-text text-break blocksatz">{{.text | markdownify}}</div>
+              <h5 class="card-title">
+                <a href="{{ .url }}" target="_blank" class="text-decoration-none text-black stretched-link">
+                  {{ .name }}
+                </a>
+              </h5>
+              <div class="card-text text-break blocksatz">{{ .text | markdownify }}</div>
             </div>
           </div>
         </div>
