@@ -48,12 +48,15 @@
                 <div class="card-body">
                     <h5 class="card-title">„Melodic Kids“</h5>
                     <p class="card-text text-break blocksatz">
-                        Mit unseren <a href="melodickids" class="stretched-link text-dark">„Melodic Kids“</a>  
-                        haben Kinder der 1. und 2. Klasse die Möglichkeit, in einem einjährigen Kurs eine musikalische Grundausbildung zu erhalten und das Instrument Melodica kennenzulernen. 
+                        Mit unseren <a href="melodickids" class="stretched-link text-dark">„Melodic Kids“</a>
+                        haben Kinder der 1. und 2. Klasse die Möglichkeit, in einem einjährigen Kurs eine musikalische
+                        Grundausbildung zu erhalten und das Instrument Melodica kennenzulernen.
                     </p>
                     <p class="card-text text-break blocksatz">
-                        Die Melodica ist ein gutes Einstiegsinstrument und bereitet die Kinder auf das spätere Erlernen eines anderen Instrumentes vor. 
-                        Noten- und Rhythmuslehre sowie das praktische Spiel werden einmal wöchentlich in einer Kleingruppe erarbeitet.
+                        Die Melodica ist ein gutes Einstiegsinstrument und bereitet die Kinder auf das spätere Erlernen
+                        eines anderen Instrumentes vor.
+                        Noten- und Rhythmuslehre sowie das praktische Spiel werden einmal wöchentlich in einer
+                        Kleingruppe erarbeitet.
                     </p>
                 </div>
             </div>
@@ -86,15 +89,39 @@
                 (dict "lg" 50 )) -}}
                 <div class="card-body">
                     <h5 class="card-title">
-                        <img src="{{ site.Params.jugendlogo | relURL }}" class="" height="40" alt="Logo MVS Jugend">
-                        Das Jugendorchester
                         <img src="{{ site.Params.maskottchen | relURL }}" class="" height="40"
-                            alt="Engelbert, Maskottchen des MVS Sailauf">
+                            alt="Engelbert, Maskottchen des MVS Sailauf" style="transform: scaleX(-1);">
+                        Die Schülerkapelle
+
                     </h5>
                     <p class="card-text text-break blocksatz">
-                        Aufbauend auf die Instrumentalausbildung können Kinder und Jugendliche Teil unserers
-                        Schüler-/<a href="jugendorchester" class="stretched-link text-dark">Jugendorchesters</a>
-                        werden. Gemeinsam wird viel gelacht, musiziert und geprobt. Jeder, der neu in die
+                        Aufbauend auf die Instrumentalausbildung können die Kinder in unserer Schülerkapelle mitspielen.
+                        Diese ist als erster Einstieg in das gemeinsame Musizieren in einer Gruppe gedacht. In
+                        gemütlicher Runde werden die ersten Orchesterstücke erarbeitet und eingeübt. Die Proben finden
+                        <b>alle zwei Wochen, freitags von 18:30 Uhr bis 19:00 Uhr</b>, statt. Die Termine werden
+                        rechtzeitig
+                        festgelegt und bekannt gegeben. Die Leitung übernimmt Sabrina Weigelt.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-6 pt-4 d-flex align-items-stretch">
+            <div class="card">
+                {{- partial "card_top.html" (dict "images" .jugendorchester "title" "Unser Jugendorchester" "widths"
+                (dict "lg" 50 )) -}}
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <img src="{{ site.Params.jugendlogo | relURL }}" class="" height="40" alt="Logo MVS Jugend">
+                        Das Jugendorchester
+                    </h5>
+                    <p class="card-text text-break blocksatz">
+
+                        Kinder und Jugendliche, die noch mehr musikalischen Input wünschen und bereits einen
+                        fortgeschrittenen Ausbildungsstand erreicht haben, finden sich in unserem <a
+                            href="jugendorchester" class="stretched-link text-dark">Jugendorchester</a>
+                        zusammen.
+                        Gemeinsam wird viel gelacht, musiziert und geprobt. Jeder, der neu in die
                         Gemeinschaft kommt, wird herzlich empfangen und wird sich sicherlich sofort wohlfühlen.
                         Geprobt wird <b>jeden Freitag</b> bei unserem Dirigenten
                         {{ with $data.data.vorstand }}
