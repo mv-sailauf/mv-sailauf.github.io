@@ -27,7 +27,7 @@ weight = 15
 [[menu.main]]
 name = "„Das Blättchen“"
 url = "/blaettchen"
-weight = 16 
+weight = 16
 
 [[menu.main]]
 name = "Kontakt"
@@ -43,12 +43,17 @@ weight = 17
 [[menu.main]]
 name = "Impressum"
 url = "/imprint"
-weight = 11 
+weight = 11
 
 [[menu.main]]
 name = "„Melodic Kids“"
 url = "/melodickids"
-weight = 12 
+weight = 12
+
+[[menu.main]]
+name = "„Spätzünder“"
+url = "/spaetzuender"
+weight = 13
 
 # [[menu.main]]
 # name = "Mitglied werden"
