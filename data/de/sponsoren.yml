@@ -24,10 +24,10 @@ sponsoren:
     text : "Als Bauunternehmen bieten wir Ihnen Qualität und Individualität mit regionalen Handwerkern für alle Arten von Maurer-, Beton-, Zimmerer- und Pflasterarbeiten für Ihren Wohnhausneubau, Industriebau, Umbau, Sanierung oder Außenanlage an.  Bei uns erhalten Sie individuelle Beratung und Angebotsausarbeitung, Lösungs-vorschläge und eine fachlich und termingerechte Ausführung.  Durch die Verwendung von hochwertigen, aufeinander abgestimmten Baustoffen und die Ausführung durch unser geschultes Personal garantieren wir Ihnen Bauen auf höchstem Standard.  "
     img : images/sponsoren/BehlJaegerBau.jpg
     url: "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hoesbach.de/markt-hoesbach/gewerbe%3Ftx_hwfirmenliste_hwfirmenplugin%255Baction%255D%3Dshow%26tx_hwfirmenliste_hwfirmenplugin%255Bcontroller%255D%3DFirma%26tx_hwfirmenliste_hwfirmenplugin%255Bfirma%255D%3D255%26cHash%3D978ae14366745b51413ff8b58a239c69&ved=2ahUKEwi7xfPhureKAxVhxQIHHfPEPX0QFnoECD8QAQ&usg=AOvVaw0oJN2QMFqetvMEons5Z9GV"
-  - name : Hotel Brennhaus Behl
-    text : " Schon seit 25 Jahren eine Verwöhnadresse für Feinschmecker  \n Gehobene Küche  \n Table Party Service  \n Schaubrennen in der Destille  \n   \n Unser Restaurant Behl bietet eine niveauvolle und abwechslungsreiche Küche, geführt von Gerhard und Florian Behl. Wir sind ausgezeichnet in etlichen Hotel-Restaurantführern wie z. B. im Feinschmecker, Michelin und Vartaführer u.s.w. Schmackhafte, regionale Gerichte und internationale Spezialitäten aus stets frisch und saisonal abgestimmten Produkten sind ein Genuss für alle Anlässe. Ob ein festlicher Anlass oder ein entspannter Tag zwischendurch, das Candle – Light – Dinner oder die Halbpension. Der Qualität können Sie sich sicher sein."
-    img : images/sponsoren/LandgasthofBehl.jpg
-    url: "https://www.behl.de"
+#  - name : Hotel Brennhaus Behl
+#    text : " Schon seit 25 Jahren eine Verwöhnadresse für Feinschmecker  \n Gehobene Küche  \n Table Party Service  \n Schaubrennen in der Destille  \n   \n Unser Restaurant Behl bietet eine niveauvolle und abwechslungsreiche Küche, geführt von Gerhard und Florian Behl. Wir sind ausgezeichnet in etlichen Hotel-Restaurantführern wie z. B. im Feinschmecker, Michelin und Vartaführer u.s.w. Schmackhafte, regionale Gerichte und internationale Spezialitäten aus stets frisch und saisonal abgestimmten Produkten sind ein Genuss für alle Anlässe. Ob ein festlicher Anlass oder ein entspannter Tag zwischendurch, das Candle – Light – Dinner oder die Halbpension. Der Qualität können Sie sich sicher sein."
+#    img : images/sponsoren/LandgasthofBehl.jpg
+#    url: "https://www.behl.de"
   - name : EHS-Ingenieure
     text : "Tragwerksplanung · Objektplanung · Instandsetzungsplanung · Bauüberwachung  \n  \n Am Alten Rahthaus 5  \n 34253 Lohfelden  \n Tel.: +49 561 950 88-0  \n Fax: +49 561 950 88-99"
     img : images/sponsoren/EHS.jpg
