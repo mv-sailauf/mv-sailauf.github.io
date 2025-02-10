@@ -7,8 +7,4 @@ resources:
     images:
 ---
 
-<div style="font-family: 'verdana'; font-size: 12px; color: #000;">Am Sonntag, den 16.02.2025 findet in der St. Vitus Kirche ein Gottesdienst für unsere verstorbenen Mitglieder statt. In diesem Gottesdienst wollen wir aller Verstorbenen unseres Vereins gedenken. Der Gottesdienst beginnt um 10:00 Uhr.<br>
-<div style="font-family: verdana; font-size: 12px; color: rgb(0, 0, 0);"><strong>&nbsp;</strong></div>
-<div style="font-family: verdana; font-size: 12px; color: rgb(0, 0, 0);"><strong>&nbsp;</strong></div>
-<div><strong>&nbsp;</strong></div>
-</div>
+Am Sonntag, den 16.02.2025 findet in der St. Vitus Kirche ein Gottesdienst für unsere verstorbenen Mitglieder statt. In diesem Gottesdienst wollen wir aller Verstorbenen unseres Vereins gedenken. Der Gottesdienst beginnt um 10:00 Uhr.
