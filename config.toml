@@ -64,6 +64,7 @@ weight = 13
 [params]
 logo = "images/logo_new.svg"
 jugendlogo = "images/logo_jugend.svg"
+spaetzuenderlogo = "images/spaetzuender.png"
 maskottchen = "images/Engelbert.svg"
 author = "Paul Gerhart"
 title = "Musikverein 1923 Sailauf"

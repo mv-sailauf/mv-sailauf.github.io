@@ -85,7 +85,7 @@
     <div class="row justify-content-center pb-3">
         <div class="col-lg-6 pt-4 d-flex align-items-stretch">
             <div class="card">
-                {{- partial "card_top.html" (dict "images" .jugendorchester "title" "Unser Jugendorchester" "widths"
+                {{- partial "card_top.html" (dict "images" .schuelerorchester "title" "Unser Jugendorchester" "widths"
                 (dict "lg" 50 )) -}}
                 <div class="card-body">
                     <h5 class="card-title">
@@ -154,6 +154,26 @@
                         {{ end }}
                         verschiedene Stilrichtungen. Wir proben
                         <b>freitags von 20:00 Uhr bis 22:00 Uhr (Einspielen ab 19:45 Uhr)</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 pt-4 d-flex align-items-stretch">
+            <div class="card">
+                {{- partial "card_top.html" (dict "images" .spaetzuender "title" "Die Spätzünder" "widths" (dict
+                "lg" 50 )) -}}
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <img src="{{site.Params.spaetzuenderlogo | relURL}}" height="40" alt="Logo MVS Sailauf">
+                        Die Spätzünder
+                    </h5>
+
+                    <p class="card-text text-break blocksatz">
+                        Musizieren unter Gleichgesinnten - Bei dem Projekt <a href="spaetzuender"
+                            class="stretched-link text-dark">„Spätzünder“</a> haben erwachsene Musikanfänger
+                        die Möglichkeit ein Instrument zu erlernen/zu vertiefen. Neben dem Instrumentalunterricht bei
+                        unseren Ausbildern möchten wir ein Spätzünder-Orchester ins Leben rufen. Als Musikneuling oder
+                        Wiedereinsteiger ist jeder bei uns willkommen.
                     </p>
                 </div>
             </div>

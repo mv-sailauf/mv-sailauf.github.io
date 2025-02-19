@@ -13,6 +13,12 @@ abbildungen:
   stammorchester: 
     - src: "images/index/Stammorchester.jpg" 
       title: "Das Stammorchester"
+  schuelerorchester: 
+    - src: "images/index/schuelerorchester.jpg" 
+      title: "Das Schülerorchester"
+  spaetzuender: 
+    - src: "images/index/spaetzuender.png" 
+      title: "Die Spätzünder"
   instrumentalausbildung: images/index/miniature_figure.jpeg
   melodickids: images/index/melodic_kids.png
   ersterVorstand: images/vorstand/user.avif
