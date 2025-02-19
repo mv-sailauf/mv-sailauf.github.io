@@ -38,7 +38,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-6 pt-4 d-flex align-items-stretch">
@@ -81,11 +80,30 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row justify-content-center pb-3">
         <div class="col-lg-6 pt-4 d-flex align-items-stretch">
             <div class="card">
-                {{- partial "card_top.html" (dict "images" .schuelerorchester "title" "Unser Jugendorchester" "widths"
+                {{- partial "card_top.html" (dict "images" .spaetzuender "title" "Die Spätzünder" "widths" (dict
+                "lg" 50 )) -}}
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <img src="{{site.Params.spaetzuenderlogo | relURL}}" height="40" alt="Logo MVS Sailauf">
+                        Die Spätzünder
+                    </h5>
+
+                    <p class="card-text text-break blocksatz">
+                        Musizieren unter Gleichgesinnten - Bei dem Projekt <a href="spaetzuender"
+                            class="stretched-link text-dark">„Spätzünder“</a> haben erwachsene Musikanfänger
+                        die Möglichkeit ein Instrument zu erlernen/zu vertiefen. Neben dem Instrumentalunterricht bei
+                        unseren Ausbildern möchten wir ein Spätzünder-Orchester ins Leben rufen. Als Musikneuling oder
+                        Wiedereinsteiger ist jeder bei uns willkommen.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 pt-4 d-flex align-items-stretch">
+            <div class="card">
+                {{- partial "card_top.html" (dict "images" .schuelerorchester "title" "Unser Jugendorchester"
+                "widths"
                 (dict "lg" 50 )) -}}
                 <div class="card-body">
                     <h5 class="card-title">
@@ -95,12 +113,15 @@
 
                     </h5>
                     <p class="card-text text-break blocksatz">
-                        Aufbauend auf die Instrumentalausbildung können die Kinder in unserer Schülerkapelle mitspielen.
+                        Aufbauend auf die Instrumentalausbildung können die Kinder in unserer Schülerkapelle
+                        mitspielen.
                         Diese ist als erster Einstieg in das gemeinsame Musizieren in einer Gruppe gedacht. In
-                        gemütlicher Runde werden die ersten Orchesterstücke erarbeitet und eingeübt. Die Proben finden
+                        gemütlicher Runde werden die ersten Orchesterstücke erarbeitet und eingeübt. Die Proben
+                        finden
                         <b>alle zwei Wochen, freitags von 18:30 Uhr bis 19:00 Uhr</b>, statt. Die Termine werden
                         rechtzeitig
-                        festgelegt und bekannt gegeben. Geleitet wird die Schülerkapelle von Sabrina Weigelt und Lena
+                        festgelegt und bekannt gegeben. Geleitet wird die Schülerkapelle von Sabrina Weigelt und
+                        Lena
                         Kunkel.
                     </p>
                 </div>
@@ -136,7 +157,8 @@
         </div>
         <div class="col-lg-6 pt-4 d-flex align-items-stretch">
             <div class="card">
-                {{- partial "card_top.html" (dict "images" .stammorchester "title" "Unser Stammorchester" "widths" (dict
+                {{- partial "card_top.html" (dict "images" .stammorchester "title" "Unser Stammorchester" "widths"
+                (dict
                 "lg" 50 )) -}}
                 <div class="card-body">
                     <h5 class="card-title">
@@ -158,26 +180,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 pt-4 d-flex align-items-stretch">
-            <div class="card">
-                {{- partial "card_top.html" (dict "images" .spaetzuender "title" "Die Spätzünder" "widths" (dict
-                "lg" 50 )) -}}
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <img src="{{site.Params.spaetzuenderlogo | relURL}}" height="40" alt="Logo MVS Sailauf">
-                        Die Spätzünder
-                    </h5>
 
-                    <p class="card-text text-break blocksatz">
-                        Musizieren unter Gleichgesinnten - Bei dem Projekt <a href="spaetzuender"
-                            class="stretched-link text-dark">„Spätzünder“</a> haben erwachsene Musikanfänger
-                        die Möglichkeit ein Instrument zu erlernen/zu vertiefen. Neben dem Instrumentalunterricht bei
-                        unseren Ausbildern möchten wir ein Spätzünder-Orchester ins Leben rufen. Als Musikneuling oder
-                        Wiedereinsteiger ist jeder bei uns willkommen.
-                    </p>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
