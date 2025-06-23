@@ -18,16 +18,17 @@
                         können auch im Laufe der Ausbildung die musikalischen Leistungszeichen erworben werden.
                     </p>
                     <p class="card-text text-break blocksatz">
-                        Bei Interesse können Sie sich gerne, bei der Jugendleitung <i>{{ .jugendleitung}}</i> ({{ .jugendleitungMobil }}) melden. Im
+                        Bei Interesse können Sie sich gerne, bei der Jugendleitung <i>{{ .jugendleitung}}</i> ({{
+                        .jugendleitungMobil }}) melden. Im
                         persönlichen Gespräch erhalten Sie auch weitere Infos zum Ablauf der Ausbildung und dem
-                        Unterrichtsangebot. 
+                        Unterrichtsangebot.
                         So können hoffentlich alle Fragen geklärt und eine Schnupperstunde vereinbart werden.
                     </p>
                 </div>
             </div>
         </div>
-{{ end }}
-{{ with $data.data.ausbilder }}
+        {{ end }}
+        {{ with $data.data.ausbilder }}
         <div class="col-lg-6 pt-3 align-items-stretch d-flex">
             <div class="card w-100">
                 <div class="card-body">
@@ -59,6 +60,10 @@
                             <tr>
                                 <th>Saxophon, Klarinette</th>
                                 <td>{{ .saxofon }}</td>
+                            </tr>
+                            <tr>
+                                <th>Klavier</th>
+                                <td>{{ .klavier }}</td>
                             </tr>
                         </tbody>
                     </table>

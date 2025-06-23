@@ -9,7 +9,7 @@
 
 {{ if .images}}
 {{ if gt (len .images) 1}}
-{{- $id := printf "index_carousel%d" (crypto.FNV32a .title)}}
+{{- $id := printf "index_carousel%d" (hash.FNV32a .title)}}
 <div id="{{$id}}" class="card-img-top carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
         {{ range .images }}
