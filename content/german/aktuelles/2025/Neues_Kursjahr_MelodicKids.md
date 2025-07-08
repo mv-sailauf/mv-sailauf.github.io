@@ -1,6 +1,6 @@
 ---
 date: 2025-07-07T17:00:06.456853
-title: "Neues Kursjahr „MelodicKids""
+title: Neues Kursjahr „MelodicKids"
 subtitle: ""
 draft: false
 resources:
