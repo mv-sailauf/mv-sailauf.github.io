@@ -51,9 +51,14 @@ url = "/melodickids"
 weight = 12
 
 [[menu.main]]
+name = "„MFE Kids“"
+url = "/mfekids"
+weight = 13
+
+[[menu.main]]
 name = "„Spätzünder“"
 url = "/spaetzuender"
-weight = 13
+weight = 14
 
 # [[menu.main]]
 # name = "Mitglied werden"

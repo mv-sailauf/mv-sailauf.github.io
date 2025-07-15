@@ -1,0 +1,31 @@
+{{ define "content" }}
+{{ $data := index site.Data site.Language.Lang }}
+<div class="container pt-1 pb-3">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{- partial "responsive_image.html" (dict
+                "image" (printf "images/kids/%s" .Params.flyer)
+                "title" .Title
+                "class" "rounded-top rounded-bottom img-fluid bg-image"
+                "widths" (dict "lg" 50)
+                ) -}}
+            </div>
+        </div>
+        <div class="col-lg-6 pt-3">
+            <div class="row">
+                <div class="col">
+                    <div class="card w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ .Title }}</h5>
+                            <div class="card-text text-break blocksatz">
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
