@@ -1,6 +1,6 @@
 ---
 title: "„Melodic Kids“"
-layout: kids 
+layout: groups 
 flyer: "MK_flyer.jpg"
 ---
 

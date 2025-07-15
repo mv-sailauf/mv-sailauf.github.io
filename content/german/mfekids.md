@@ -1,6 +1,6 @@
 ---
 title: "„MFE Kids“"
-layout: kids
+layout: groups
 flyer: "MFE_flyer.jpg"
 ---
 
