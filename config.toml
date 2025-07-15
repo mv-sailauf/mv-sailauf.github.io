@@ -46,13 +46,13 @@ url = "/imprint"
 weight = 11
 
 [[menu.main]]
-name = "„Melodic Kids“"
-url = "/melodickids"
+name = "„MFE Kids“"
+url = "/mfekids"
 weight = 12
 
 [[menu.main]]
-name = "„MFE Kids“"
-url = "/mfekids"
+name = "„Melodic Kids“"
+url = "/melodickids"
 weight = 13
 
 [[menu.main]]
