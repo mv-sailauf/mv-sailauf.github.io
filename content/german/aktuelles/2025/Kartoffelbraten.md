@@ -1,6 +1,6 @@
 ---
 date: 2025-08-25T17:00:05.565057
-title: "No Subject"
+title: "Kartoffelbraten"
 subtitle: ""
 draft: false
 resources:
