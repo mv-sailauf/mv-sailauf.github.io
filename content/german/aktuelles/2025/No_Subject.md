@@ -1,12 +1,12 @@
 ---
-date: 2025-07-14T13:00:04.933242
-title: "Saisoneröffnung beim FCU"
+date: 2025-08-25T17:00:05.565057
+title: "No Subject"
 subtitle: ""
 draft: false
 resources:
     images:
     - name: "Image"
-      src: "/images/aktuelles/2025/haTXzyqs.jpeg"
+      src: "/images/aktuelles/2025/BpRpVF0t.jpeg"
 ---
 
 
