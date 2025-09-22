@@ -44,6 +44,10 @@ weight = 17
 name = "Impressum"
 url = "/imprint"
 weight = 11
+[[menu.main]]
+name = "Datenschutz"
+url = "/dsgvo"
+weight = 11
 
 [[menu.main]]
 name = "„MFE Kids“"
