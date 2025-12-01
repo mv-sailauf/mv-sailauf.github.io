@@ -2,7 +2,6 @@
 title: "Datenschutzerklärung"
 layout: dsgvo 
 ---
-## Datenschutzerklärung
 
 Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen.  
 Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003).  
