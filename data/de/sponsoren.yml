@@ -32,10 +32,10 @@ sponsoren:
     text : "Tragwerksplanung · Objektplanung · Instandsetzungsplanung · Bauüberwachung  \n  \n Am Alten Rahthaus 5  \n 34253 Lohfelden  \n Tel.: +49 561 950 88-0  \n Fax: +49 561 950 88-99"
     img : images/sponsoren/EHS.jpg
     url: "https://www.ehs-ingenieure.de"
-  - name : Gartentechnik Müller
-    text : "Eichenberg  \n Tel: 06024 - 3285  \n Fax: 06024 – 638097"
-    img : images/sponsoren/GartentechnikMueller.jpg
-    url: "https://www.sailauf.de/gemeinde-wirtschaft/wirtschaft-gewerbe/firmen/91/mueller-forst-und-gartentechnik"
+#  - name : Gartentechnik Müller
+#    text : "Eichenberg  \n Tel: 06024 - 3285  \n Fax: 06024 – 638097"
+#    img : images/sponsoren/GartentechnikMueller.jpg
+#    url: "https://www.sailauf.de/gemeinde-wirtschaft/wirtschaft-gewerbe/firmen/91/mueller-forst-und-gartentechnik"
   - name : Pelzhaus Drescher
     text : ""
     img : images/sponsoren/Drescher.png
