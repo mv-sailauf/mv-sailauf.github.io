@@ -16,8 +16,8 @@ Wir vermitteln euch an unsere vereinseigenen Ausbilder, wo ihr eure Fähigkeiten
 Instrument sowie in Noten- und Rhythmuslehre auf- und ausbauen könnt. Ergänzend dazu
 wollen wir ein Spätzünder-Orchester gründen, um gemeinsam zu musizieren.
                            
-Bei Interesse wende Dich bitte an Vanessa Hartmann (+49 176 9433 6069 oder
-ausbildung@mv1923sailauf.de).
+Bei Interesse wende Dich bitte an {{< data "de.data.vorstand.zweiterVorstand" >}} ({{< data "de.data.vorstand.zweiterVorstandMobil" >}} oder
+{{< data "de.data.vorstand.ausbildungsleitungEmail" >}}).
                    
 Bitte gib bei der Kontaktaufnahme an, ob und welches Instrument du bereits beherrschst.
 Bei Musikanfängern möchten wir wissen, welches Instrument Du erlernen möchtest.
