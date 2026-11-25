@@ -1,0 +1,7 @@
+User-agent: Googlebot-Image
+Disallow: /images/aktuelles/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mv1923sailauf.de/sitemap.xml
